@@ -13,16 +13,30 @@ body {
     height: 100vh;
 }
 
+#opening img {
+    width: 100%;
+    position: relative;
+    animation: fadeIn2;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    
+}
+
 #opening i {
     color:gold;
     position: absolute;
     top:90%;
+    animation: bounce;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+
 }
 
 #opening h1{
     top: 35%;
     left: 50%;
-    position: relative;
+    position: absolute;
     transform: translateX(-50%) translateY(-50%);
     color:gold;
     animation: fadeIn;
@@ -62,5 +76,33 @@ body {
 
     100% {
         opacity: 1;
+    }
+}
+
+@keyframes fadeIn3 {
+    0% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(-20%);
+    }
+
+    100% {
+        transform: translateY(0%);
     }
 }
