@@ -3,7 +3,7 @@ body {
 }
 
 .col-10 {
-    border: blue 3px solid;
+    border: maroon 3px solid;
     height: 100vh;
 }
 
@@ -13,8 +13,14 @@ body {
     height: 100vh;
 }
 
+#opening i {
+    color:gold;
+    position: absolute;
+    top:90%;
+}
+
 #opening h1{
-    top: 40%;
+    top: 35%;
     left: 50%;
     position: relative;
     transform: translateX(-50%) translateY(-50%);
