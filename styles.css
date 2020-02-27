@@ -1,4 +1,60 @@
+body {
+    background-color: black;
+}
+
 .col-10 {
     border: blue 3px solid;
     height: 100vh;
+}
+
+#opening {
+    position: relative;
+    text-align: center;
+    height: 100vh;
+}
+
+#opening h1{
+    top: 40%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%) translateY(-50%);
+    color:gold;
+    animation: fadeIn;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#opening p {
+    color: white;
+    animation: fadeIn2;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn2 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
