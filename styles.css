@@ -159,6 +159,7 @@ p {
     animation: fadeIn;
     animation-duration: 7s;
     animation-fill-mode: forwards;
+    font-family: 'PT Sans' ;
     
 }
 
@@ -172,7 +173,7 @@ p {
     animation: fadeIn2;
     animation-duration: 7s;
     animation-fill-mode: forwards;
-    
+    font-family: 'PT Sans' ;
 }
 
 #yrs {
