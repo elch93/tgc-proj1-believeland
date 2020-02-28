@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-color: black;
     padding:0;
@@ -5,7 +9,7 @@ body {
 }
 
 .col-12 {
-    border: maroon 3px solid;
+    border: #860038 3px solid;
     height: 100vh;
 }
 
@@ -26,13 +30,13 @@ body {
 }
 
 #opening i {
-    color:gold;
+    color:#FDBB30;
     position: absolute;
-    top:90%;
-    animation: bounce;
-    animation-duration: 3s;
+    top:80%;
+    animation: fadeIn2, bounce;
+    animation-duration: 12s, 2s;
     animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1, infinite;
     font-size: 30px;
 }
 
@@ -43,7 +47,7 @@ body {
     left: 50%;
     position: absolute;
     transform: translateX(-50%) translateY(-50%);
-    color:gold;
+    color:#FDBB30;
     animation: fadeIn;
     animation-duration: 3s;
     animation-fill-mode: forwards;
@@ -55,7 +59,7 @@ body {
     left: 50%;
     position: absolute;
     transform: translateX(-50%) translateY(-50%);
-    color:gold;
+    color: #FDBB30;
     animation: fadeIn2;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -73,6 +77,7 @@ body {
     position: absolute;
     transform: translateX(-50%) translateY(-50%);
     font-size: 22px;
+    font-family: 'PT Sans' ;
 }
 
 @keyframes fadeIn {
