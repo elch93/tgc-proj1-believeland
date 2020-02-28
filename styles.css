@@ -135,6 +135,8 @@ p {
         transform: translateY(0%);
     }
 }
+
+
 #chapt0 {
     position: relative;
 }
@@ -146,36 +148,50 @@ p {
     overflow: hidden;
 }
 
-
-
 #chapt0 #on-day {
     color:white;
     position: absolute;
-    top: 40%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    margin-bottom: 30px;
-
+    margin-bottom: 20px;
+    animation: fadeIn;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
     
 }
 
 #chapt0 #drought {
     color:white;
     position: absolute;
-    top: 60%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    padding: 20px;
+    animation: fadeIn2;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
     
-    
+}
+
+#yrs {
+    color:white;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    animation: fadeIn2;
+    animation-duration: 11s;
+    animation-fill-mode: forwards;
+    font-family: 'Bebas Neue';
+    display: none;
 }
 
 #chapt0 i {
     color:#FDBB30;
     position: absolute;
-    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     top:80%;
@@ -187,5 +203,14 @@ p {
     font-size: 30px;
 }
 
+#chapt0 p{
+    display: none;
+}
 
+#chapt0:hover p {
+    display: block;
+}
 
+#chapt0:hover #yrs {
+    display: block;
+}
