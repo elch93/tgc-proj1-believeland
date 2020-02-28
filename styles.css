@@ -12,11 +12,12 @@ p {
     font-family: 'PT Sans' ;
 }
 
-.col-12 {
+section div {
     border: #860038 3px solid;
     height: 100vh;
 }
 
+/* welcome page css */
 .opening {
     position: relative;
     text-align: center;
@@ -108,20 +109,6 @@ p {
     }
 }
 
-@keyframes fadeIn3 {
-    0% {
-        opacity: 0;
-    }
-
-    80% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
 @keyframes bounce {
     0% {
         transform: translateY(0%);
@@ -136,6 +123,7 @@ p {
     }
 }
 
+/* chapt0 css */
 
 #chapt0 {
     position: relative;
@@ -157,7 +145,7 @@ p {
     text-align: center;
     margin-bottom: 20px;
     animation: fadeIn;
-    animation-duration: 7s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
     font-family: 'PT Sans' ;
     
@@ -171,7 +159,7 @@ p {
     transform: translate(-50%, -50%);
     text-align: center;
     animation: fadeIn2;
-    animation-duration: 7s;
+    animation-duration: 4s;
     animation-fill-mode: forwards;
     font-family: 'PT Sans' ;
 }
@@ -184,7 +172,7 @@ p {
     transform: translate(-50%, -50%);
     text-align: center;
     animation: fadeIn2;
-    animation-duration: 11s;
+    animation-duration: 12s;
     animation-fill-mode: forwards;
     font-family: 'Bebas Neue';
     display: none;
@@ -215,3 +203,6 @@ p {
 #chapt0:hover #yrs {
     display: block;
 }
+
+/* chapt1 css */
+
