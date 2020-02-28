@@ -18,7 +18,7 @@ body {
 
 #opening img {
     animation: fadeIn2;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-fill-mode: forwards;
     object-fit: cover;
     height: 100vh;
@@ -33,31 +33,46 @@ body {
     animation-duration: 3s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
-
+    font-size: 30px;
 }
 
 
 
-#opening h1{
-    top: 30%;
+#opening #always{
+    top: 20%;
     left: 50%;
     position: absolute;
     transform: translateX(-50%) translateY(-50%);
     color:gold;
     animation: fadeIn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    font-family: 'Bebas Neue' ;
+}
+
+#opening #believe{
+    top: 35%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    color:gold;
+    animation: fadeIn2;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    font-family: 'Bebas Neue' ;
+    font-size: 80px;
 }
 
 #opening p {
     color: white;
     animation: fadeIn2;
-    animation-duration: 5s;
+    animation-duration: 8s;
     animation-fill-mode: forwards;
     top: 60%;
     left: 50%;
     position: absolute;
     transform: translateX(-50%) translateY(-50%);
+    font-size: 22px;
 }
 
 @keyframes fadeIn {
@@ -104,7 +119,7 @@ body {
     }
 
     50% {
-        transform: translateY(-50%);
+        transform: translateY(50%);
     }
 
     100% {
