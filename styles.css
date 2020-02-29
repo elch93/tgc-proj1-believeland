@@ -381,22 +381,24 @@ section > div {
 }
 
 /* -------------------------------chapt3 css --------------------------------*/
-#c32, #c33 {
-    height: 50vh;
-    border-top:#FDBB30 3px solid;
-}
 
-#c31 {
-    height: 20vh;
-    border-top:#FDBB30 3px solid;
-}
-
-#c31 p, #c32 p, #c33 p{
+#c31, #c32 p, #c33 p{
     color: white;
+    background-color: rgba(0,0,0,0.6);
+    font-weight: bold;
+    position: absolute;
+    font-family: 'PT Sans' ;
+}
+
+#c32 {
+    height: 50vh;
 }
 
 #chapt3 img {
-    height: 70%;
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 /* -------------------------------general css --------------------------------*/
@@ -424,7 +426,7 @@ section > div {
 }
 
 
-#chapt1 i, #chapt1b i, #chapt2 i, #chapt2b i {
+#chapt1 i, #chapt1b i, #chapt2 i, #chapt2b i, #chapt3 i{
     color:#FDBB30;
     position: absolute;
     left: 50%;
