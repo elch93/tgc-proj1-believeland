@@ -380,6 +380,25 @@ section > div {
     background-size: cover;
 }
 
+/* -------------------------------chapt3 css --------------------------------*/
+#c32, #c33 {
+    height: 50vh;
+    border-top:#FDBB30 3px solid;
+}
+
+#c31 {
+    height: 20vh;
+    border-top:#FDBB30 3px solid;
+}
+
+#c31 p, #c32 p, #c33 p{
+    color: white;
+}
+
+#chapt3 img {
+    height: 70%;
+}
+
 /* -------------------------------general css --------------------------------*/
 
 #chapt1b:hover #c14, #chapt1b:hover #c15, #chapt1b:hover #c16, #chapt1b:hover img, 
