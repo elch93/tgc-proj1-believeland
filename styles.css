@@ -144,9 +144,6 @@ section > div {
     transform: translate(-50%, -50%);
     text-align: center;
     margin-bottom: 20px;
-    animation: fadeIn;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
     font-family: 'PT Sans' ;
     
 }
@@ -158,9 +155,6 @@ section > div {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    animation: fadeIn2;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
     font-family: 'PT Sans' ;
 }
 
@@ -171,9 +165,6 @@ section > div {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    animation: fadeIn2;
-    animation-duration: 8s;
-    animation-fill-mode: forwards;
     font-family: 'Bebas Neue';
     display: none;
 }
@@ -214,16 +205,9 @@ section > div {
 }
 
 #chapt1 #draftquote {
-    position: relative;
-    top: 5%;
-}
-
-#chapt1 i {
-    color: white;
-    font-size: 2em;
     position: absolute;
-    top: 75%;
-    left: 85%;
+    top:5%;
+    left:5%;
 }
 
 #chapt1 #rookie {
@@ -234,6 +218,19 @@ section > div {
 
 #chapt1 p {
     color: white;
+    margin: 30px;
+}
+
+
+
+#draftday img {
+    animation: fadeIn2;
+    animation-duration: 12s;
+    animation-fill-mode: forwards;
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    display:none;
 }
 
 #chapt1 #pickquote {
@@ -246,8 +243,9 @@ section > div {
 
 #narration-1 {
     display: none;
-    position:relative;
-    top:10%;
+    position:absolute;
+    top:40%;
+    left:5%;
     text-align: justify;
     margin-bottom: 20px;
     font-family: 'PT Sans' ;
@@ -255,17 +253,19 @@ section > div {
 
 #narration-2 {
     display: none;
-    position:relative;
+    position:absolute;
     text-align: justify;
-    top:15%;
+    top:45%;
+    left:5%;
     font-family: 'PT Sans' ;
 }
 
 #narration-3 {
     display: none;
-    position:relative;
+    position:absolute;
     text-align: justify;
-    top:20%;
+    top:55%;
+    left:5%;
     font-family: 'PT Sans' ;
 }
 
@@ -287,9 +287,13 @@ section > div {
     display: block;
 }
 
+#draftday:hover img {
+    display: block;
+}
+
 
 #failures {
-    height: 90vh;
+    height: 100vh;
 }
 
 .fadeIn1 {
@@ -335,31 +339,7 @@ section > div {
 
 }
 
-#failures .col-12 {
-    height: 100vh;
-}
-
-#fail1{
-    background-image: url(images/vspistons.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#fail2{
-    background-image: url(images/vsspurs.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-
-
-#failures p {
-    font-family: 'PT Sans' ;
-}
-
-#failures i {
+#chapt1 i {
     color:#FDBB30;
     position: absolute;
     left: 50%;
