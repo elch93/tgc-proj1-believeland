@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: #FDBB30;
     padding:0;
     margin:0;
 }
@@ -13,7 +13,7 @@ p {
 }
 
 section > div {
-    border: #860038 3px solid;
+    /* border: #860038 3px solid; */
     height: 100vh;
 }
 
@@ -216,7 +216,6 @@ section > div {
 #chapt1 #draftquote {
     position: relative;
     top: 5%;
-    font-size:2em;
 }
 
 #chapt1 i {
@@ -242,12 +241,13 @@ section > div {
     margin-bottom: 20px;
     font-family: 'Bebas Neue';
     display: none;
+    font-size: 1.7em;
 }
 
 #narration-1 {
     display: none;
     position:relative;
-    top:20%;
+    top:10%;
     text-align: justify;
     margin-bottom: 20px;
     font-family: 'PT Sans' ;
@@ -256,18 +256,16 @@ section > div {
 #narration-2 {
     display: none;
     position:relative;
-    top:25%;
     text-align: justify;
-    margin-bottom: 20px;
+    top:15%;
     font-family: 'PT Sans' ;
 }
 
 #narration-3 {
     display: none;
     position:relative;
-    top:30%;
     text-align: justify;
-    margin-bottom: 20px;
+    top:20%;
     font-family: 'PT Sans' ;
 }
 
@@ -323,4 +321,16 @@ section > div {
     animation-duration: 2s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
+}
+
+.neuromorph {
+    background-color: black;
+    padding: 0px;
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3),
+    -5px -5px 10px rgba(255,255,255,0.5);
+    border: 1px solid rgba(255,255,255, 0.2);
+
 }
