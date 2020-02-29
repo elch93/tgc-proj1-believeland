@@ -318,7 +318,9 @@ section > div {
     animation-fill-mode: forwards;
 }
 
-#failures div {
-    height: 50vh;
-    border: gold 1px solid;
+.bounce {
+    animation: bounce;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
 }
