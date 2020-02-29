@@ -240,9 +240,6 @@ section > div {
 #chapt1 #pickquote {
     text-align: left;
     margin-bottom: 20px;
-    animation: fadeIn;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
     font-family: 'Bebas Neue';
     display: none;
 }
@@ -253,9 +250,6 @@ section > div {
     top:20%;
     text-align: justify;
     margin-bottom: 20px;
-    animation: fadeIn2;
-    animation-duration: 4s;
-    animation-fill-mode: forwards;
     font-family: 'PT Sans' ;
 }
 
@@ -265,9 +259,6 @@ section > div {
     top:25%;
     text-align: justify;
     margin-bottom: 20px;
-    animation: fadeIn2;
-    animation-duration: 8s;
-    animation-fill-mode: forwards;
     font-family: 'PT Sans' ;
 }
 
@@ -277,9 +268,6 @@ section > div {
     top:30%;
     text-align: justify;
     margin-bottom: 20px;
-    animation: fadeIn2;
-    animation-duration: 12s;
-    animation-fill-mode: forwards;
     font-family: 'PT Sans' ;
 }
 
@@ -306,3 +294,31 @@ section > div {
     height: 100vh;
 }
 
+.fadeIn1 {
+    animation: fadeIn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.fadeIn2 {
+    animation: fadeIn2;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+.fadeIn3 {
+    animation: fadeIn2;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+
+.fadeIn4 {
+    animation: fadeIn2;
+    animation-duration: 12s;
+    animation-fill-mode: forwards;
+}
+
+#failures div {
+    height: 50vh;
+    border: gold 1px solid;
+}
