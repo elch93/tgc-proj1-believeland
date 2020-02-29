@@ -12,7 +12,7 @@ p {
     font-family: 'PT Sans' ;
 }
 
-section div {
+section > div {
     border: #860038 3px solid;
     height: 100vh;
 }
@@ -205,4 +205,40 @@ section div {
 }
 
 /* chapt1 css */
+#chapt1 {
+    color: white;
+}
 
+#chapt1 .blockquote {
+    position: absolute;
+    top: 10%;
+    font-size:2em;
+}
+
+#chapt1 i {
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    top: 75%;
+    left: 90%;
+}
+
+#chapt1 #rookie {
+    background-image: url(images/draft-day-portrait.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#chapt1 p {
+    color: white;
+}
+
+#narration-1 {
+    position:relative;
+    top:40%;
+}
+
+#narration-2 {
+    position:relative;
+    top:60%;
+}
