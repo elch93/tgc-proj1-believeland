@@ -209,9 +209,13 @@ section > div {
     color: white;
 }
 
+#draftday {
+    height: 100vh;
+}
+
 #chapt1 .blockquote {
     position: absolute;
-    top: 10%;
+    top: 0;
     font-size:2em;
 }
 
@@ -220,7 +224,7 @@ section > div {
     font-size: 2em;
     position: absolute;
     top: 75%;
-    left: 90%;
+    left: 85%;
 }
 
 #chapt1 #rookie {
@@ -233,12 +237,53 @@ section > div {
     color: white;
 }
 
+#chapt1 #pickquote {
+    text-align: left;
+    margin-bottom: 20px;
+    animation: fadeIn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    font-family: 'PT Sans' ;
+    display: none;
+}
+
 #narration-1 {
+    display: none;
     position:relative;
-    top:40%;
+    top:30%;
+    text-align: justify;
+    margin-bottom: 20px;
+    animation: fadeIn2;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    font-family: 'PT Sans' ;
 }
 
 #narration-2 {
+    display: none;
     position:relative;
-    top:60%;
+    top:50%;
+    text-align: justify;
+    margin-bottom: 20px;
+    animation: fadeIn2;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+    font-family: 'PT Sans' ;
+}
+
+
+#draftday:hover #pickquote {
+    display: block;
+}
+
+#draftday:hover #narration-1 {
+    display: block;
+}
+
+#draftday:hover #narration-2 {
+    display: block;
+}
+
+#failures {
+    height: 100vh;
 }
