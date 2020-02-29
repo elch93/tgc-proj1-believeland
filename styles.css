@@ -289,7 +289,7 @@ section > div {
 
 
 #failures {
-    height: 100vh;
+    height: 90vh;
 }
 
 .fadeIn1 {
@@ -335,10 +335,40 @@ section > div {
 
 }
 
-#failures img {
-    width: 100%;
+#failures .col-12 {
+    height: 100vh;
 }
+
+#fail1{
+    background-image: url(images/vspistons.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#fail2{
+    background-image: url(images/vsspurs.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 
 #failures p {
     font-family: 'PT Sans' ;
+}
+
+#failures i {
+    color:#FDBB30;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top:80%;
+    text-align: center;
+    animation: fadeIn2, bounce;
+    animation-duration: 12s, 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1, infinite;
+    font-size: 30px;
 }
