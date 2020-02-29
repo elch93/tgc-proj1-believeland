@@ -172,7 +172,7 @@ section div {
     transform: translate(-50%, -50%);
     text-align: center;
     animation: fadeIn2;
-    animation-duration: 12s;
+    animation-duration: 8s;
     animation-fill-mode: forwards;
     font-family: 'Bebas Neue';
     display: none;
