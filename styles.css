@@ -213,9 +213,9 @@ section > div {
     height: 100vh;
 }
 
-#chapt1 .blockquote {
-    position: absolute;
-    top: 0;
+#chapt1 #draftquote {
+    position: relative;
+    top: 5%;
     font-size:2em;
 }
 
@@ -243,14 +243,14 @@ section > div {
     animation: fadeIn;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-    font-family: 'PT Sans' ;
+    font-family: 'Bebas Neue';
     display: none;
 }
 
 #narration-1 {
     display: none;
     position:relative;
-    top:30%;
+    top:20%;
     text-align: justify;
     margin-bottom: 20px;
     animation: fadeIn2;
@@ -262,7 +262,7 @@ section > div {
 #narration-2 {
     display: none;
     position:relative;
-    top:50%;
+    top:25%;
     text-align: justify;
     margin-bottom: 20px;
     animation: fadeIn2;
@@ -270,6 +270,19 @@ section > div {
     animation-fill-mode: forwards;
     font-family: 'PT Sans' ;
 }
+
+#narration-3 {
+    display: none;
+    position:relative;
+    top:30%;
+    text-align: justify;
+    margin-bottom: 20px;
+    animation: fadeIn2;
+    animation-duration: 12s;
+    animation-fill-mode: forwards;
+    font-family: 'PT Sans' ;
+}
+
 
 
 #draftday:hover #pickquote {
@@ -284,6 +297,12 @@ section > div {
     display: block;
 }
 
+#draftday:hover #narration-3 {
+    display: block;
+}
+
+
 #failures {
     height: 100vh;
 }
+
