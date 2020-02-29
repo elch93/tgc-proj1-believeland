@@ -288,10 +288,6 @@ section > div {
     letter-spacing: 10px;
 }
 
-#chapt2 .col-12 {
-    /* border: 1px gold solid; */
-}
-
 #c21 {
     top: 47%;
     left:5%;
@@ -369,6 +365,23 @@ section > div {
     }
 
 /* -------------------------------chapt2.5 css --------------------------------*/    
+
+#chapt2b {
+    height: 100vh;
+}
+
+#chapt2b .col-12 {
+    border:#FDBB30 solid 1px;
+}
+
+#c23, #c24, #c25 {
+    color: white;
+}
+
+
+
+
+
 
 /* -------------------------------general css --------------------------------*/
 
