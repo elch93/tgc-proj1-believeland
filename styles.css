@@ -217,19 +217,7 @@ section > div {
 
 
 
-#chapt1 i, #chapt1b i, #chapt2 i {
-    color:#FDBB30;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    top:80%;
-    text-align: center;
-    animation: fadeIn2, bounce;
-    animation-duration: 12s, 2s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1, infinite;
-    font-size: 30px;
-}
+
 
 /* -------------------------------chapt1.5 css --------------------------------*/
 
@@ -374,20 +362,30 @@ section > div {
     border:#FDBB30 solid 1px;
 }
 
-#c23, #c24, #c25 {
-    color: white;
+#c23 {
+    background-image: url(images/big3.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
+#c24 {
+    background-image: url(images/jersey.jpg);
+    background-position: center right;
+    background-size: cover;
+}
 
-
-
-
+#c25 {
+    background-image: url(images/finals10.jpg);
+    background-position: left center;
+    background-size: cover;
+}
 
 /* -------------------------------general css --------------------------------*/
 
 #chapt1b:hover #c14, #chapt1b:hover #c15, #chapt1b:hover #c16, #chapt1b:hover img, 
 #draftday:hover #pickquote, #draftday:hover #c11, #draftday:hover #c12, #draftday:hover #c13,
-#draftday:hover img, #chapt2:hover #c21, #chapt2:hover #c22, #chapt2:hover #villain {
+#draftday:hover img, #chapt2:hover #c21, #chapt2:hover #c22, #chapt2:hover #villain, 
+#chapt2b:hover #c23, #chapt2b:hover #c24, #chapt2b:hover #c25{
     display: block;
 }
 
@@ -397,6 +395,28 @@ section > div {
     font-family: 'PT Sans' ;
     text-align: justify;
     color: white;
+}
+
+#c23, #c24, #c25 {
+    display: none;
+    font-family: 'PT Sans' ;
+    text-align: justify;
+    color: white;
+}
+
+
+#chapt1 i, #chapt1b i, #chapt2 i, #chapt2b i {
+    color:#FDBB30;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top:80%;
+    text-align: center;
+    animation: fadeIn2, bounce;
+    animation-duration: 12s, 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1, infinite;
+    font-size: 30px;
 }
 
 .fadeIn1 {
