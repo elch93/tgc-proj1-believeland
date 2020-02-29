@@ -37,15 +37,16 @@ section > div {
 .opening i {
     color:#FDBB30;
     position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
     top:80%;
+    text-align: center;
     animation: fadeIn2, bounce;
     animation-duration: 12s, 2s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1, infinite;
     font-size: 30px;
 }
-
-
 
 .opening .para1{
     top: 20%;
@@ -216,12 +217,10 @@ section > div {
     background-position: center;
 }
 
-#chapt1 p {
+#chapt1 p,#chapt1b p {
     color: white;
     margin: 30px;
 }
-
-
 
 #draftday img {
     animation: fadeIn2;
@@ -233,67 +232,29 @@ section > div {
     display:none;
 }
 
+
 #chapt1 #pickquote {
     text-align: left;
     margin-bottom: 20px;
     font-family: 'Bebas Neue';
     display: none;
-    font-size: 1.7em;
+    font-size: 2em;
 }
 
-#narration-1 {
-    display: none;
-    position:absolute;
+#nar1 {
     top:40%;
     left:5%;
-    text-align: justify;
     margin-bottom: 20px;
-    font-family: 'PT Sans' ;
 }
 
-#narration-2 {
-    display: none;
-    position:absolute;
-    text-align: justify;
+#nar2 {
     top:45%;
     left:5%;
-    font-family: 'PT Sans' ;
 }
 
-#narration-3 {
-    display: none;
-    position:absolute;
-    text-align: justify;
+#nar3 {
     top:55%;
     left:5%;
-    font-family: 'PT Sans' ;
-}
-
-
-
-#draftday:hover #pickquote {
-    display: block;
-}
-
-#draftday:hover #narration-1 {
-    display: block;
-}
-
-#draftday:hover #narration-2 {
-    display: block;
-}
-
-#draftday:hover #narration-3 {
-    display: block;
-}
-
-#draftday:hover img {
-    display: block;
-}
-
-
-#failures {
-    height: 100vh;
 }
 
 .fadeIn1 {
@@ -339,7 +300,7 @@ section > div {
 
 }
 
-#chapt1 i {
+#chapt1 i, #chapt1b i {
     color:#FDBB30;
     position: absolute;
     left: 50%;
@@ -351,4 +312,44 @@ section > div {
     animation-fill-mode: forwards;
     animation-iteration-count: 1, infinite;
     font-size: 30px;
+}
+
+/* chapt1.5 css */
+
+#chapt1b img {
+    animation: fadeIn2;
+    animation-duration: 12s;
+    animation-fill-mode: forwards;
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    display:none;
+}
+
+#chapt1b:hover #nar4, #chapt1b:hover #nar5, #chapt1b:hover #nar6, #chapt1b:hover img, 
+#draftday:hover #pickquote, #draftday:hover #nar1, #draftday:hover #nar2, #draftday:hover #nar3,
+#draftday:hover img {
+    display: block;
+}
+
+#nar1, #nar2, #nar3, #nar4, #nar5, #nar6 {
+    display: none;
+    position: absolute;
+    font-family: 'PT Sans' ;
+    text-align: justify;
+}
+
+#nar4 {
+    top:5%;
+    left:5%;
+}
+
+#nar5 {
+    top: 20%;
+    left: 5%;
+}
+
+#nar6 {
+    top: 30%;
+    left: 5%;
 }
