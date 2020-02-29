@@ -17,7 +17,7 @@ section > div {
     height: 100vh;
 }
 
-/* welcome page css */
+/* -------------------------------welcome page css --------------------------------*/
 .opening {
     position: relative;
     text-align: center;
@@ -86,45 +86,9 @@ section > div {
     font-family: 'PT Sans' ;
 }
 
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
 
-    100% {
-        opacity: 1;
-    }
-}
 
-@keyframes fadeIn2 {
-    0% {
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes bounce {
-    0% {
-        transform: translateY(0%);
-    }
-
-    50% {
-        transform: translateY(50%);
-    }
-
-    100% {
-        transform: translateY(0%);
-    }
-}
-
-/* chapt0 css */
+/* -------------------------------chapt 0 css --------------------------------*/
 
 #chapt0 {
     position: relative;
@@ -191,7 +155,7 @@ section > div {
     display: block;
 }
 
-/* chapt1 css */
+/* -------------------------------chapt1 css --------------------------------*/
 #chapt1 {
     color: white;
 }
@@ -213,7 +177,6 @@ section > div {
 }
 
 #chapt1 p,#chapt1b p {
-    color: white;
     margin: 30px;
 }
 
@@ -236,20 +199,181 @@ section > div {
     font-size: 2em;
 }
 
-#nar1 {
+#c11 {
     top:40%;
     left:5%;
     margin-bottom: 20px;
 }
 
-#nar2 {
+#c12 {
     top:45%;
     left:5%;
 }
 
-#nar3 {
+#c13 {
     top:55%;
     left:5%;
+}
+
+
+
+#chapt1 i, #chapt1b i, #chapt2 i {
+    color:#FDBB30;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top:80%;
+    text-align: center;
+    animation: fadeIn2, bounce;
+    animation-duration: 12s, 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1, infinite;
+    font-size: 30px;
+}
+
+/* -------------------------------chapt1.5 css --------------------------------*/
+
+#chapt1b img {
+    animation: fadeIn2;
+    animation-duration: 12s;
+    animation-fill-mode: forwards;
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    display:none;
+}
+
+
+
+#c14 {
+    top:5%;
+    left:5%;
+}
+
+#c15 {
+    top: 20%;
+    left: 5%;
+}
+
+#c16 {
+    top: 30%;
+    left: 5%;
+}
+
+/* -------------------------------chapt2 css --------------------------------*/
+
+#chapt2 {
+    height: 100vh;
+    color:white;
+}
+
+#villain {
+    width:100vw;
+    height: 100vh;
+}
+
+#villain img {
+    height:40vh;
+    object-fit: cover;
+    position: absolute;
+    transform: translateX(-50%);
+    left:50%;
+    top:12%;
+}
+
+#villain h1 {
+    font-family: 'Bebas Neue' ;
+    text-align: center;
+    font-size: 10vh;
+    letter-spacing: 10px;
+}
+
+@media (min-width:400px) {
+    #villain h1 {
+        font-size: 20vh;
+    }
+
+    #c21 {
+    top: 42%;
+    left:5%;
+    text-align: left;
+    
+    }
+}
+
+
+
+
+#chapt2 .col-12 {
+    border: 1px gold solid;
+}
+
+#c21 {
+    top: 47%;
+    left:5%;
+    text-align: left;
+    font-size: 17px ;
+}
+
+#c22 {
+    top:57%;
+    text-align: right;
+    font-size: 14px ;
+}
+
+#c21, #c22 {
+    position: absolute;
+    font-family: 'PT Sans' ;
+    color: white;
+}
+
+
+
+@media (min-width:570px) {
+    #villain h1 {
+        font-size: 30vh;
+    }
+
+    #c21, #c22 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:700px) {
+    #villain h1 {
+        font-size: 40vh;
+    }
+
+    #c21, #c22 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width:850px) {
+    #villain h1 {
+        font-size: 50vh;
+    }
+
+    #c21, #c22 {
+        font-size: 30px;
+    }
+}
+
+
+/* -------------------------------general css --------------------------------*/
+
+#chapt1b:hover #c14, #chapt1b:hover #c15, #chapt1b:hover #c16, #chapt1b:hover img, 
+#draftday:hover #pickquote, #draftday:hover #c11, #draftday:hover #c12, #draftday:hover #c13,
+#draftday:hover img {
+    display: block;
+}
+
+#c11, #c12, #c13, #c14, #c15, #c16 {
+    display: none;
+    position: absolute;
+    font-family: 'PT Sans' ;
+    text-align: justify;
+    color: white;
 }
 
 .fadeIn1 {
@@ -295,88 +419,40 @@ section > div {
 
 }
 
-#chapt1 i, #chapt1b i, #chapt2 i {
-    color:#FDBB30;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    top:80%;
-    text-align: center;
-    animation: fadeIn2, bounce;
-    animation-duration: 12s, 2s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1, infinite;
-    font-size: 30px;
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
-/* chapt1.5 css */
+@keyframes fadeIn2 {
+    0% {
+        opacity: 0;
+    }
 
-#chapt1b img {
-    animation: fadeIn2;
-    animation-duration: 12s;
-    animation-fill-mode: forwards;
-    object-fit: cover;
-    height: 100vh;
-    width: 100vw;
-    display:none;
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
-#chapt1b:hover #nar4, #chapt1b:hover #nar5, #chapt1b:hover #nar6, #chapt1b:hover img, 
-#draftday:hover #pickquote, #draftday:hover #nar1, #draftday:hover #nar2, #draftday:hover #nar3,
-#draftday:hover img {
-    display: block;
-}
+@keyframes bounce {
+    0% {
+        transform: translateY(0%);
+    }
 
-#nar1, #nar2, #nar3, #nar4, #nar5, #nar6 {
-    display: none;
-    position: absolute;
-    font-family: 'PT Sans' ;
-    text-align: justify;
-}
+    50% {
+        transform: translateY(50%);
+    }
 
-#nar4 {
-    top:5%;
-    left:5%;
-}
-
-#nar5 {
-    top: 20%;
-    left: 5%;
-}
-
-#nar6 {
-    top: 30%;
-    left: 5%;
-}
-
-/* chapt2 css */
-
-#chapt2 {
-    height: 100vh;
-    color:white;
-}
-
-#villain {
-    width:100vw;
-    height: 100vh;
-}
-
-#villain img {
-    height:40vh;
-    object-fit: cover;
-    position: absolute;
-    transform: translateX(-50%);
-    left:50%;
-    top:12%;
-}
-
-#villain h1 {
-    font-family: 'Bebas Neue' ;
-    text-align: center;
-    font-size: 20vh;
-    letter-spacing: 10px;
-}
-
-#chapt2 .col-12 {
-    border: 1px gold solid;
+    100% {
+        transform: translateY(0%);
+    }
 }
