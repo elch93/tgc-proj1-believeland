@@ -1,0 +1,115 @@
+
+#chapt1 i, #chapt1b i, #chapt2 i, #chapt2b i, #chapt3 i{
+    color:#FDBB30;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top:80%;
+    text-align: center;
+    animation: fadeIn2, bounce;
+    animation-duration: 12s, 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1, infinite;
+    font-size: 30px;
+}
+
+.fadeIn0 {
+    animation: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.fadeIn1 {
+    animation: fadeIn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.fadeIn2 {
+    animation: fadeIn2;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+.fadeIn3 {
+    animation: fadeIn2;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+
+.fadeIn4 {
+    animation: fadeIn2;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+}
+
+.fadeIn5 {
+    animation: fadeIn2;
+    animation-duration: 22s;
+    animation-fill-mode: forwards;
+}
+
+.fadeIn6 {
+    animation: fadeIn2;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+}
+
+
+
+.bounce {
+    animation: bounce;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.neuromorph {
+    background-color: black;
+    padding: 0px;
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3),
+    -5px -5px 10px rgba(255,255,255,0.5);
+    border: 1px solid rgba(255,255,255, 0.2);
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn2 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(50%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
