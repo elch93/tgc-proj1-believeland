@@ -10,12 +10,15 @@ body {
 
 p {
     font-family: 'PT Sans' ;
+    color: white;
 }
 
-section > div {
-    /* border: #860038 3px solid; */
-    height: 100vh;
+h1 {
+    font-family: 'Bebas Neue' ;
+    color:white;
 }
+
+
 
 /* -------------------------------welcome page css --------------------------------*/
 .opening {
@@ -156,65 +159,53 @@ section > div {
 }
 
 /* -------------------------------chapt1 css --------------------------------*/
-#chapt1 {
-    color: white;
-}
-
-#draftday {
+#chapt1 div {
     height: 100vh;
 }
 
-#chapt1 #draftquote {
+#chapt1 div div {
+    width: 500px;
+    /* border: yellow 1px solid; */
+}
+
+#chapt1 img {
     position: absolute;
-    top:5%;
+    height: 90vh;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+#a1 {
+    position: absolute;
+    font-size: 3.9em;
+    padding:10px;
+    margin: 0 auto;
+}
+
+
+#a2 {
+    position: relative;
+    top:50%;
+    font-size: 6em;
     left:5%;
+    
 }
 
-#chapt1 #rookie {
-    background-image: url(images/chapt1/draft-day-portrait.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-#chapt1 p,#chapt1b p {
-    margin: 30px;
-}
-
-#draftday img {
-    animation: fadeIn2;
-    animation-duration: 12s;
-    animation-fill-mode: forwards;
-    object-fit: cover;
-    height: 100vh;
-    width: 100vw;
-    display:none;
-}
-
-
-#chapt1 #pickquote {
-    text-align: left;
-    margin-bottom: 20px;
-    font-family: 'Bebas Neue';
-    display: none;
-    font-size: 2em;
-}
-
-#c11 {
-    top:40%;
-    left:5%;
-    margin-bottom: 20px;
-}
-
-#c12 {
+#a3 {
+    position: relative;
     top:45%;
-    left:5%;
+    font-size: 6em;
+    left:30%;
 }
 
-#c13 {
-    top:55%;
-    left:5%;
+#a4 {
+    position: absolute;
+    font-size: 1.3em;
+    top:35%;
+    padding:10px;
 }
-
 
 
 
@@ -487,13 +478,7 @@ section > div {
 
 /* -------------------------------general css --------------------------------*/
 
-#chapt1b:hover #c14, #chapt1b:hover #c15, #chapt1b:hover #c16, #chapt1b:hover img, 
-#draftday:hover #pickquote, #draftday:hover #c11, #draftday:hover #c12, #draftday:hover #c13,
-#draftday:hover img, #chapt2:hover #c21, #chapt2:hover #c22, #chapt2:hover #villain, 
-#chapt2b:hover #c23, #chapt2b:hover #c24, #chapt2b:hover #c25, #chapt3:hover #c31, 
-#chapt3:hover #c32, #chapt3:hover #c33, #chapt3:hover img{
-    display: block;
-}
+
 
 #c11, #c12, #c13, #c14, #c15, #c16 {
     display: none;

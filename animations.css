@@ -1,3 +1,12 @@
+#chapt1b:hover #c14, #chapt1b:hover #c15, #chapt1b:hover #c16, #chapt1b:hover img, 
+#draftday:hover #pickquote, #draftday:hover #c11, #draftday:hover #c12, #draftday:hover #c13,
+#draftday:hover img, #chapt2:hover #c21, #chapt2:hover #c22, #chapt2:hover #villain, 
+#chapt2b:hover #c23, #chapt2b:hover #c24, #chapt2b:hover #c25, #chapt3:hover #c31, 
+#chapt3:hover #c32, #chapt3:hover #c33, #chapt3:hover img{
+    display: block;
+}
+
+/* down arrow button */
 
 #chapt1 i, #chapt1b i, #chapt2 i, #chapt2b i, #chapt3 i, #chapt4 i, #chapt4b i{
     color:#FDBB30;
