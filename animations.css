@@ -15,7 +15,7 @@
     transform: translate(-50%, -50%);
     top:80%;
     text-align: center;
-    animation: fadeIn2, bounce;
+    animation: fadeIn1, bounce;
     animation-duration: 12s, 2s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1, infinite;

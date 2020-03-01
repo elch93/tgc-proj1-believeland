@@ -163,9 +163,8 @@ h1 {
     height: 100vh;
 }
 
-#chapt1 div div {
-    width: 500px;
-    /* border: yellow 1px solid; */
+#chapt1 .col-12 {
+    border: yellow 1px solid;
 }
 
 #chapt1 img {
