@@ -171,7 +171,7 @@ section > div {
 }
 
 #chapt1 #rookie {
-    background-image: url(images/draft-day-portrait.jpg);
+    background-image: url(images/chapt1/draft-day-portrait.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -363,19 +363,19 @@ section > div {
 }
 
 #c23 {
-    background-image: url(images/big3.jpg);
+    background-image: url(images/chapt2/big3.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #c24 {
-    background-image: url(images/jersey.jpg);
+    background-image: url(images/chapt2/jersey.jpg);
     background-position: center right;
     background-size: cover;
 }
 
 #c25 {
-    background-image: url(images/finals10.jpg);
+    background-image: url(images/chapt2/finals10.jpg);
     background-position: left center;
     background-size: cover;
 }
