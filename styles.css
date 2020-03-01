@@ -424,6 +424,67 @@ section > div {
     top:50%;
 }
 
+/* -------------------------------chapt4 css --------------------------------*/
+
+#chapt4 {
+    color: white;
+    height: 100vh;
+    background-color: rgba(0,0,0,1);
+    font-weight: bold;
+    font-family: 'PT Sans' ;
+    text-align: center;
+}
+
+
+
+#c41 {
+    top: 5%;
+    position: absolute;
+}
+
+#c42 {
+    top:15%;
+    position: absolute;
+}
+
+#c43 {
+    top: 25%;
+    position: absolute;
+}
+
+#c44 {
+    top: 35%;
+    position: absolute;
+}
+
+
+.highlight {
+    color:#FDBB30;
+}
+
+#gifset {
+    position: absolute;
+    top: 50%; 
+}
+
+.gif {
+    max-width: 400px;
+    max-height: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* -------------------------------general css --------------------------------*/
@@ -450,5 +511,4 @@ section > div {
     text-align: justify;
     color: white;
 }
-
 
