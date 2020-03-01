@@ -426,7 +426,7 @@ section > div {
 
 /* -------------------------------chapt4 css --------------------------------*/
 
-#chapt4 {
+#chapt4, #chapt4b {
     color: white;
     height: 100vh;
     background-color: rgba(0,0,0,1);
@@ -435,12 +435,12 @@ section > div {
     text-align: center;
 }
 
-#c41 {
+#c41,#c45 {
     top: 5%;
     position: absolute;
 }
 
-#c42 {
+#c42,#c46 {
     top:15%;
     position: absolute;
 }
@@ -450,7 +450,7 @@ section > div {
     position: absolute;
 }
 
-#c44 {
+#c44, #c47 {
     top: 35%;
     position: absolute;
 }
@@ -460,7 +460,7 @@ section > div {
     color:#FDBB30;
 }
 
-#gifset {
+.gifset {
     position: absolute;
     top: 50%; 
 }
