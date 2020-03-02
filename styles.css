@@ -163,8 +163,8 @@ h1 {
 
 
 /* -------------------------------matchup --------------------------------*/
-#matchup h1, p{
-    color: black !important;
+#matchup h1, #matchup p{
+    color: black;
 }
 
 #matchup i {
@@ -197,8 +197,31 @@ h1 {
 
 /* -------------------------------failure resume --------------------------------*/
 
+#failres img {
+    position: absolute;
+    height: 90vh;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
+#failures p {
+    color: white;
+}
 
+#fr1 {
+    position: absolute;
+    top:10%;
+    left:30%;
+}
+
+#fr2 {
+    position: absolute;
+}
+
+#fr3 {
+    position: absolute;
+}
 
 
 
