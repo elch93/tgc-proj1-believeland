@@ -197,6 +197,11 @@ h1 {
 
 /* -------------------------------failure resume --------------------------------*/
 
+#failres {
+    background-image: url(images/chuddle-dark.jpg);
+    background-size: cover;
+}
+
 #failres img {
     position: absolute;
     height: 90vh;
@@ -209,19 +214,9 @@ h1 {
     color: white;
 }
 
-#fr1 {
-    position: absolute;
-    top:10%;
-    left:30%;
-}
 
-#fr2 {
-    position: absolute;
-}
 
-#fr3 {
-    position: absolute;
-}
+
 
 
 
