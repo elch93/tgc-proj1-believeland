@@ -225,12 +225,9 @@ h1 {
     background-size: cover;
 }
 
-#a4 {
-    background-color: #ffb81c;
-}
 
 #a4 div {
-    height: 330px;
+    height: 300px;
     width: 92%;
     background-color: white;
     border-radius: 15px;
@@ -247,6 +244,7 @@ h1 {
 /* -------------------------------chapt2 css --------------------------------*/
 
 #chapt2 {
+    position: relative;
     height: 100vh;
     color:white;
 }
