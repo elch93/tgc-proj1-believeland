@@ -367,9 +367,47 @@ h1 {
 /* -------------------------------chapt3 css --------------------------------*/
 #chapt3 {
     height: 100vh;
+    position: relative;
+    text-align: center;
 }
 
+#chapt3 h1 {
+    color: white;
+}
 
+#chapt3 #frus {
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+#chapt3 #p31 {
+    top: 20%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 18px;
+    font-family: 'PT Sans' ;
+    width:300px;
+}
+
+#chapt3 #p32 {
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 18px;
+    font-family: 'PT Sans' ;
+    width:300px;
+}
+
+#chapt3 #won15 {
+    position: absolute;
+    max-width: 80%;
+    max-height: 30%;
+    top:50%;
+
+}
 
 
 

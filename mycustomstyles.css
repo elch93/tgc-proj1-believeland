@@ -39,9 +39,8 @@
 
  
 #draftday:hover #pickquote, #draftday:hover #c11, #draftday:hover #c12, #draftday:hover #c13,
-#draftday:hover img, #chapt2:hover #c21, #chapt2:hover #c22, #chapt2:hover #villain, #chapt3:hover #c31, 
-#chapt3:hover #c32, #chapt3:hover #c33, #chapt3:hover img
-{
+#draftday:hover img, #chapt2:hover #c21, #chapt2:hover #c22, #chapt2:hover #villain
+    {
     display: block;
 }
 
