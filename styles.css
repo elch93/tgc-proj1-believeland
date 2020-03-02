@@ -161,13 +161,10 @@ h1 {
 }
 
 /* -------------------------------chapt1 css --------------------------------*/
-#chapt1 div{
+#chapt1 > div{
     height: 100vh;
 }
 
-/* #chapt1 .col-12 {
-    border: yellow 1px solid;
-} */
 
 #chapt1 img {
     position: absolute;
@@ -186,16 +183,16 @@ h1 {
 
 
 #a2 {
-    position: relative;
-    top:50%;
+    position: absolute;
+    top:40%;
     font-size: 6em;
-    right:19%;
+    right:40%;
     
 }
 
 #a3 {
-    position: relative;
-    top:45%;
+    position: absolute;
+    top:55%;
     font-size: 6em;
     left:40%;
 }
@@ -352,10 +349,10 @@ h1 {
     border: 5px #ffb81c solid;
 }
 
-.mycard {
+/* .mycard {
     height: 50vh;
     border: 5px #ffb81c solid;
-}
+} */
 
 #vsceltics {
     background-image: url(images/chapt2/bron2.jpg);
