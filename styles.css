@@ -348,6 +348,20 @@ h1 {
 
 /* -------------------------------chapt2.5 css --------------------------------*/    
 
+
+.court {
+    height: 300px;
+    border-radius: 0 0 41.6vw 41.6vw;
+    border: 5px #ffb81c solid;
+}
+
+.mycard {
+    height: 50vh;
+    border: 5px #ffb81c solid;
+}
+
+
+
 /* #chapt2b {
     height: 100vh;
 }
