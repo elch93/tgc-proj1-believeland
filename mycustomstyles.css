@@ -26,19 +26,20 @@
     background-color: black;
 }
 
-#chapt1 h1,#chapt1 #bron1, #ib1, #ib2, #ib3, #a4 p {
+#chapt1 h1,#chapt1 #bron1, #ib1, #ib2, #ib3, #a4 p,  #c21, #c22, #villain,
+#chapt2b p {
     display: none;
 }
 
 #chapt1:hover h1, #chapt1:hover #bron1, #chapt1b:hover #ib1, 
-#chapt1b:hover #ib2, #chapt1b:hover #ib3, #chapt1b:hover #a4 p{
+#chapt1b:hover #ib2, #chapt1b:hover #ib3, #chapt1b:hover #a4 p,
+#chapt2b:hover p {
     display: block;
 }
 
  
 #draftday:hover #pickquote, #draftday:hover #c11, #draftday:hover #c12, #draftday:hover #c13,
-#draftday:hover img, #chapt2:hover #c21, #chapt2:hover #c22, #chapt2:hover #villain, 
-#chapt2b:hover #c23, #chapt2b:hover #c24, #chapt2b:hover #c25, #chapt3:hover #c31, 
+#draftday:hover img, #chapt2:hover #c21, #chapt2:hover #c22, #chapt2:hover #villain, #chapt3:hover #c31, 
 #chapt3:hover #c32, #chapt3:hover #c33, #chapt3:hover img
 {
     display: block;

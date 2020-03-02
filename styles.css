@@ -342,10 +342,7 @@ h1 {
     }
 }
 
-    #c21, #c22, #villain {
-        display: none;
-    }
-
+   
 /* -------------------------------chapt2.5 css --------------------------------*/    
 
 
@@ -367,34 +364,28 @@ h1 {
 }
 
 
-/* #chapt2b {
-    height: 100vh;
-}
-
-#chapt2b .col-12 {
-    border:#FDBB30 solid 1px;
-}
-
-#c23 {
-    background-image: url(images/chapt2/big3.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-#c24 {
-    background-image: url(images/chapt2/jersey.jpg);
-    background-position: center right;
-    background-size: cover;
-}
-
-#c25 {
-    background-image: url(images/chapt2/finals10.jpg);
-    background-position: left center;
-    background-size: cover;
-} */
-
 /* -------------------------------chapt3 css --------------------------------*/
-#chapt3 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #chapt3 {
     height: 100vh;
 }
 
@@ -435,7 +426,7 @@ h1 {
 
 #c33 {
     top:50%;
-}
+} */
 
 /* -------------------------------chapt4 css --------------------------------*/
 
