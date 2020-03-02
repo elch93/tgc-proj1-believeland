@@ -159,13 +159,13 @@ h1 {
 }
 
 /* -------------------------------chapt1 css --------------------------------*/
-#chapt1 div {
+#chapt1 div{
     height: 100vh;
 }
 
-#chapt1 .col-12 {
+/* #chapt1 .col-12 {
     border: yellow 1px solid;
-}
+} */
 
 #chapt1 img {
     position: absolute;
@@ -174,8 +174,6 @@ h1 {
     left: 50%;
     transform: translateX(-50%);
 }
-
-
 
 #a1 {
     position: absolute;
@@ -207,50 +205,23 @@ h1 {
     padding:10px;
 }
 
-#chapt1b > .row {
-    height: 70vh;
-    background-color: #ffb81c;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.3),
-    -5px -5px 10px rgba(255,255,255,0.5);
-    border: 1px solid rgba(255,255,255, 0.2);
-}
 
-#chapt1b p {
-    color: black;
-    font-weight: bold;
-    font-size: 1.5em;
-}
 
 
 /* -------------------------------chapt1.5 css --------------------------------*/
-
-#chapt1b img {
-    animation: fadeIn2;
-    animation-duration: 12s;
-    animation-fill-mode: forwards;
-    object-fit: cover;
-    height: 100vh;
-    width: 100vw;
-    display:none;
+/* #ib1 {
+   
+    
 }
 
-
-
-#c14 {
-    top:5%;
-    left:5%;
+#ib2 {
+    
 }
 
-#c15 {
-    top: 20%;
-    left: 5%;
-}
+#ib3 {
+    
+} */
 
-#c16 {
-    top: 30%;
-    left: 5%;
-}
 
 /* -------------------------------chapt2 css --------------------------------*/
 
@@ -510,29 +481,3 @@ h1 {
 
 
 
-.goldbor {
-    border: 1px #ffb81c;
-}
-
-
-
-.cavs03 {
-    background-color: black;
-    box-shadow:10px 0px 0px 0px white,-10px 0px 0px 0px white;
-}
-
-.white {
-    background-color: white;
-}
-
-.gold {
-    background-color: #ffb81c;
-}
-
-.wine {
-    background-color: #6f263d;
-}
-
-.black {
-    background-color: black;
-}

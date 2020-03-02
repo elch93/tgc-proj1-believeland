@@ -1,3 +1,38 @@
+.gbor {
+    border: 5px #ffb81c solid;
+}
+
+.box1 {
+    height: 300px !important;
+    width:25%;
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.cavs03 {
+    background-color: black;
+    box-shadow:10px 0px 0px 0px white,-10px 0px 0px 0px white;
+}
+
+.white {
+    background-color: white;
+}
+
+.gold {
+    background-color: #ffb81c;
+}
+
+.wine {
+    background-color: #6f263d;
+}
+
+.black {
+    background-color: black;
+}
+
+
+
 #chapt1b:hover #c14, #chapt1b:hover #c15, #chapt1b:hover #c16, #chapt1b:hover img, 
 #draftday:hover #pickquote, #draftday:hover #c11, #draftday:hover #c12, #draftday:hover #c13,
 #draftday:hover img, #chapt2:hover #c21, #chapt2:hover #c22, #chapt2:hover #villain, 
