@@ -204,7 +204,7 @@ h1 {
 
 #failres img {
     position: absolute;
-    height: 90vh;
+    height: 100vh;
     top: 5%;
     left: 50%;
     transform: translateX(-50%);
