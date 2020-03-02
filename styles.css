@@ -2,6 +2,7 @@ html {
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 body {
@@ -96,6 +97,10 @@ h1 {
     overflow: hidden;
 }
 
+#c01, #c02 {
+    font-size: 22px;
+}
+
 #chapt0 #c01 {
     color:white;
     position: absolute;
@@ -126,6 +131,7 @@ h1 {
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: 'Bebas Neue';
+    font-size: 5em;
 }
 
 #chapt0 i {
@@ -155,9 +161,6 @@ h1 {
     height: 100vh;
 }
 
-/* #chapt1 .col-12 {
-    border: yellow 1px solid;
-} */
 
 #chapt1 img {
     position: absolute;
