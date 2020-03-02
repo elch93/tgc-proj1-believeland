@@ -176,6 +176,7 @@ h1 {
 }
 
 
+
 #a1 {
     position: absolute;
     font-size: 3.9em;
@@ -188,7 +189,7 @@ h1 {
     position: relative;
     top:50%;
     font-size: 6em;
-    left:5%;
+    right:19%;
     
 }
 
@@ -196,7 +197,7 @@ h1 {
     position: relative;
     top:45%;
     font-size: 6em;
-    left:30%;
+    left:40%;
 }
 
 #a4 {
@@ -206,7 +207,20 @@ h1 {
     padding:10px;
 }
 
+#chapt1b > .row {
+    height: 70vh;
+    background-color: #ffb81c;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3),
+    -5px -5px 10px rgba(255,255,255,0.5);
+    border: 1px solid rgba(255,255,255, 0.2);
+}
 
+#chapt1b p {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+}
 
 
 /* -------------------------------chapt1.5 css --------------------------------*/
@@ -494,3 +508,31 @@ h1 {
     color: white;
 }
 
+
+
+.goldbor {
+    border: 1px #ffb81c;
+}
+
+
+
+.cavs03 {
+    background-color: black;
+    box-shadow:10px 0px 0px 0px white,-10px 0px 0px 0px white;
+}
+
+.white {
+    background-color: white;
+}
+
+.gold {
+    background-color: #ffb81c;
+}
+
+.wine {
+    background-color: #6f263d;
+}
+
+.black {
+    background-color: black;
+}
