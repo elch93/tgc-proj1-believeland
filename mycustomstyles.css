@@ -46,7 +46,8 @@
 
 /* down arrow button */
 
-#chapt1 i, #chapt1b i, #chapt2 i, #chapt2b i, #chapt3 i, #chapt4 i, #chapt4b i{
+#chapt1 i, #chapt1b i, #chapt2 i, #chapt2b i, #chapt3 i, #chapt3b i, 
+#chapt3c i, #chapt4 i {
     color:#FDBB30;
     position: absolute;
     left: 50%;
