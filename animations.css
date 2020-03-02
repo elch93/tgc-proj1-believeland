@@ -26,11 +26,11 @@
     background-color: black;
 }
 
-#chapt1a h1,#chapt1a #bron1, #ib1, #ib2, #ib3, #a4 p {
+#chapt1 h1,#chapt1 #bron1, #ib1, #ib2, #ib3, #a4 p {
     display: none;
 }
 
-#chapt1a:hover h1, #chapt1a:hover #bron1, #chapt1b:hover #ib1, 
+#chapt1:hover h1, #chapt1:hover #bron1, #chapt1b:hover #ib1, 
 #chapt1b:hover #ib2, #chapt1b:hover #ib3, #chapt1b:hover #a4 p{
     display: block;
 }
