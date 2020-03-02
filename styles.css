@@ -1,5 +1,7 @@
 html {
   scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -198,29 +200,34 @@ h1 {
     left:40%;
 }
 
-#a4 {
-    position: absolute;
-    font-size: 1.3em;
-    top:35%;
-    padding:10px;
-}
+
 
 
 
 
 /* -------------------------------chapt1.5 css --------------------------------*/
-/* #ib1 {
-   
-    
+#chapt1b > .row {
+    height: 50vh;
+}
+
+#ib1 {
+    background: url(images/chapt1/draft-day-portrait.jpg) center center;
+    background-size: cover;
 }
 
 #ib2 {
-    
+    background: url(images/chapt1/vspistons.jpg) center center;
+    background-size: cover;
 }
 
 #ib3 {
-    
-} */
+    background: url(images/chapt1/vsspurs.jpg) center center;
+    background-size: cover;
+}
+
+#a4 {
+    color: white;
+}
 
 
 /* -------------------------------chapt2 css --------------------------------*/
