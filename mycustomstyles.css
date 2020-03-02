@@ -1,28 +1,46 @@
 .gbor {
-    border: 5px #ffb81c solid;
+    border: 1px #ffb81c solid;
 }
 
-.spcardgold {
-    height: 500px;
-    width: 80%;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.3),
-    -5px -5px 10px rgba(255,255,255,0.5);
-    border: 1px solid rgba(255,255,255, 0.2);
-    background-color: #ffb81c;
-    padding:20px;
-}
 
-.spcardwine {
-    height: 500px;
-    width: 80%;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.3),
-    -5px -5px 10px rgba(255,255,255,0.5);
-    border: 1px solid rgba(255,255,255, 0.2);
+.wineleft {
+    border-radius: 5px 0 0 5px;
     background-color: #6f263d;
-    padding:20px;
+    box-shadow: 0px 5px 5px 0 rgba(0,0,0,0.3);
+    width:20%;
+    height: 50px;
+    text-align: center;
+    font-size: 2em;
 }
+
+.wineright {
+    border-radius: 0 5px 5px 0;
+    background-color: white;
+    box-shadow: 0px 5px 5px 0 rgba(0,0,0,0.3);
+    width:70%;
+    height: 50px;
+    text-align: center;
+}
+
+.gsleft {
+    border-radius: 5px 0 0 5px;
+    background-color: white;
+    box-shadow: 0px 5px 5px 0 rgba(0,0,0,0.3);
+    width:70%;
+    height: 50px;
+    text-align: center;
+}
+
+.gsright {
+    border-radius: 0 5px 5px 0;
+    background-color: #006BB8;
+    box-shadow: 0px 5px 5px 0 rgba(0,0,0,0.3);
+    width:20%;
+    height: 50px;
+    text-align: center;
+    font-size: 2em;
+}
+
 
 .hundred {
     height: 100vh;
@@ -52,6 +70,14 @@
     background-color: black;
 }
 
+.blue {
+    background-color: #006BB8;
+}
+
+.third {
+    height: 30vh;
+}
+
 #chapt1 h1,#chapt1 #bron1, #ib1, #ib2, #ib3, #a4 p,  #c21, #c22, #villain,
 #chapt2b p {
     display: none;
@@ -72,9 +98,8 @@
 
 /* down arrow button */
 
-#chapt1 i, #chapt1b i, #chapt2 i, #chapt2b i, #chapt3 i, #chapt3b i, 
-#chapt3c i, #chapt4 i {
-    color:#FDBB30;
+.nextarrow {
+    color:#FDBB30 !important;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
