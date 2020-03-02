@@ -365,7 +365,7 @@ h1 {
 
 
 /* -------------------------------chapt3 css --------------------------------*/
-#chapt3 {
+#chapt3, #chapt3b, #chapt3c {
     height: 100vh;
     position: relative;
     text-align: center;
@@ -409,9 +409,6 @@ h1 {
 
 }
 
-#chapt3b {
-    height: 100vh;
-}
 
 #p33 {
     position: absolute;
@@ -429,6 +426,29 @@ h1 {
     font-size: 1.2em;
 }
 
+#p35 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 1.2em;
+}
+
+#p36 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 1.2em;
+}
+
+#p37 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 1.2em;
+}
 
 
 
