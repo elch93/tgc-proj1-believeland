@@ -79,7 +79,7 @@ h1 {
 }
 
 .opening p {
-    color: white;
+    color: white !important;
     animation: fadeIn2;
     animation-duration: 8s;
     animation-fill-mode: forwards;

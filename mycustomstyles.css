@@ -2,6 +2,27 @@
     border: 3px #ffb81c solid;
 }
 
+.nmcard {
+    background-color: #efeeee;
+    padding: 0px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3),
+    -5px -5px 10px rgba(255,255,255,0.5);
+    border: 1px solid rgba(255,255,255, 0.2);
+
+}
+
+.nmtop {
+    height: 200px;
+    width: 90%;
+    margin-top: 10%;
+}
+
+.nmbtm {
+    height: 250px;
+    width: 90%;
+}
 
 .wineleft {
     border-radius: 5px 0 0 5px;
@@ -72,6 +93,10 @@
 
 .blue {
     background-color: #006BB8;
+}
+
+.nmbg {
+    background-color: #efeeee;
 }
 
 .third {
@@ -163,17 +188,7 @@
     animation-iteration-count: infinite;
 }
 
-.neuromorph {
-    background-color: black;
-    padding: 0px;
-    height: 35px;
-    width: 35px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.3),
-    -5px -5px 10px rgba(255,255,255,0.5);
-    border: 1px solid rgba(255,255,255, 0.2);
 
-}
 
 @keyframes fadeIn {
     0% {
