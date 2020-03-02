@@ -360,6 +360,11 @@ h1 {
     border: 5px #ffb81c solid;
 }
 
+#vsceltics {
+    background-image: url(images/chapt2/bron2.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 
 /* #chapt2b {
