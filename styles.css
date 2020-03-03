@@ -209,9 +209,29 @@ h1 {
 
 @media (max-width:768px) {
     #resume {
-        position: static;
-        padding: 20px;
-        height: 30vh;
+    position: static;
+    padding: 20px;
+    height: 30vh;
+    }
+
+    #herotxt3 {
+    position: static;
+    visibility: hidden;
+   }
+
+    #herotxt2 {
+    position: static;
+    
+    }
+
+    #herotxt1 {
+    position: static;
+    
+    }
+
+    #failr img {
+        height: 50%;
+        
     }
 }
 
