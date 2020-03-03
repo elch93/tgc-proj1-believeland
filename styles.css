@@ -252,7 +252,13 @@ h1 {
 }
 
 #matchup2 img {
-    width: 280px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#matchup2 h1 {
+    border-left: 3px solid #6f263d;
+    padding-left: 5px;
 }
 
 /* -------------------------------mynav css --------------------------------*/
