@@ -171,8 +171,8 @@ h1 {
 }
 
 #herotxt2 {
-    position: relative;
-    bottom: 42%;
+    position: absolute;
+    bottom: 30%;
     left:55%;
     font-size: 7em;
     color: #6f263d;
@@ -219,18 +219,16 @@ h1 {
     visibility: hidden;
    }
 
-    #herotxt2 {
+    #herotxt2, #herotxt1 {
     position: static;
-    
-    }
-
-    #herotxt1 {
-    position: static;
-    
+    font-size: 5em;
+    padding-bottom: 0;
+    margin-bottom: 0;
     }
 
     #failr img {
-        height: 50%;
+        height: 60%;
+        position: static;
         
     }
 }
@@ -248,5 +246,7 @@ h1 {
     animation-iteration-count:1;
     animation-fill-mode:forwards;
     
+}
 
+/* -------------------------------mynav css --------------------------------*/
 
