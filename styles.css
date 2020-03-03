@@ -160,37 +160,7 @@ h1 {
 
 
 
-/* -------------------------------matchup --------------------------------*/
-#matchup h1, #matchup p{
-    color: black;
-}
 
-#matchup i {
-    color:white;
-}
-
-#vs h1 {
-    font-size: 2em;
-}
-
-#vs {
-    box-shadow: 
-    -5px 0px 10px rgba(0,0,0,0.5);
-    border: 1px solid rgba(255,255,255, 1);
-    background-color: white;
-    padding:20px;
-}
-
-#vsbron {
-    background-image: url(images/matchup/vsbron.png);
-    background-size: cover;
-}
-
-#vscurry {
-    box-shadow: inset 5px 0px 10px rgba(0,0,0,0.5);
-    background-image: url(images/matchup/vscurry.png);
-    background-size: cover;
-}
 
 
 /* -------------------------------failure resume --------------------------------*/
@@ -254,7 +224,49 @@ h1 {
 }
 
 
+/* -------------------------------matchup --------------------------------*/
 
+
+
+
+
+
+
+
+
+
+
+
+/* #matchup h1, #matchup p{
+    color: black;
+}
+
+#matchup i {
+    color:white;
+}
+
+#vs h1 {
+    font-size: 2em;
+}
+
+#vs {
+    box-shadow: 
+    -5px 0px 10px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255, 1);
+    background-color: white;
+    padding:20px;
+}
+
+#vsbron {
+    background-image: url(images/matchup/vsbron.png);
+    background-size: cover;
+}
+
+#vscurry {
+    box-shadow: inset 5px 0px 10px rgba(0,0,0,0.5);
+    background-image: url(images/matchup/vscurry.png);
+    background-size: cover;
+} */
 
 
 
