@@ -329,10 +329,18 @@ h1 {
     left: 50%;
 }
 
-#mycourt {
+#warcourt {
     width:330px;
     height: 155px;
     border: 1px gold solid;
+    transform: skewX(-30deg);
+}
+
+#cavcourt {
+    width:330px;
+    height: 155px;
+    border: 1px gold solid;
+    transform: skewX(30deg);
 }
 
 
