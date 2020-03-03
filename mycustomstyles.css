@@ -1,7 +1,57 @@
+
+
+/* for guide */
+
 .gbor {
     border: 3px #ffb81c solid;
 }
 
+
+.hundred {
+    height: 100vh;
+}
+
+.third {
+    height: 30vh;
+}
+
+.fifty {
+    height: 50vh;
+}
+
+
+.grey {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.white {
+    background-color: white;
+}
+
+.gold {
+    background-color: #ffb81c;
+}
+
+.wine {
+    background-color: #6f263d;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue {
+    background-color: #006BB8;
+}
+
+.nmbg {
+    background-color: #efeeee;
+}
+
+
+
+
+/* design */
 .gline {
     border-left: 3px solid #FDBB30;
 }
@@ -10,48 +60,6 @@
     border-left: 3px solid #6f263d;
 }
 
-.nmpanel {
-    height: 330px;
-    border-radius: 10px;
-    width: 280px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.3),
-    -5px -5px 10px rgba(255,255,255,0.5);
-    border: 1px solid rgba(255,255,255, 0.2);
-    
-}
-
-.nmpanel img {
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-
-}
-
-.nmpaneltxt {
-    height: 160px;
-    text-align: justify;
-    padding:10px;
-    background-color: white;
-    border-radius: 0 0 10px 10px;
-}
-
-
-.nmcard {
-    background-color: #efeeee;
-    padding: 0px;
-    height: 500px;
-    border-radius: 15px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.3),
-    -5px -5px 10px rgba(255,255,255,0.5);
-    border: 1px solid rgba(255,255,255, 0.2);
-
-}
-
-.nmtop {
-    height: 200px;
-    width: 90%;
-    margin-top: 10%;
-    text-align: center;
-}
 
 .nmize {
     border-radius: 15px;
@@ -60,14 +68,6 @@
     border: 1px solid rgba(255,255,255, 0.2);
 }
 
-.nmbtm {
-    height: 250px;
-    width: 90%;
-}
-
-.onepg {
-    width: 80%;
-}
 
 .wineleft {
     border-radius: 5px 0 0 5px;
@@ -108,17 +108,6 @@
 }
 
 
-.hundred {
-    height: 100vh;
-}
-
-.third {
-    height: 30vh;
-}
-
-.fifty {
-    height: 50vh;
-}
 
 .box1 {
     height: 320px !important;
@@ -126,34 +115,6 @@
     position: relative;
     background-color: white;
     border-radius: 15px;
-}
-
-.grey {
-    background-color: rgba(0,0,0,0.5);
-}
-
-.white {
-    background-color: white;
-}
-
-.gold {
-    background-color: #ffb81c;
-}
-
-.wine {
-    background-color: #6f263d;
-}
-
-.black {
-    background-color: black;
-}
-
-.blue {
-    background-color: #006BB8;
-}
-
-.nmbg {
-    background-color: #efeeee;
 }
 
 
@@ -172,6 +133,9 @@
     animation-iteration-count: 1, infinite;
     font-size: 30px;
 }
+
+
+/* my animations */
 
 .fadeIn0 {
     animation: fadeIn;
