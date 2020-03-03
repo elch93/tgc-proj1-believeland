@@ -159,8 +159,50 @@ h1 {
 }
 
 /* -------------------------------failure resume --------------------------------*/
+#fr3 img {
+    width: 200px;
+}
 
-#failr img {
+#bron3lg {
+    position: relative;
+    top:40%;
+    transform: scale(2);
+}
+
+#namelg1 {
+    font-size: 4em;
+    position: relative;
+    top:50%;
+    right: 30%;
+}
+
+#namelg2 {
+    font-size: 4em;
+    position: relative;
+    top:45%;
+    
+}
+
+
+
+
+
+
+
+
+/* #frhero img{
+    width: 100%;
+    overflow: hidden;
+}
+
+#txtbehind {
+    font-size: 30px;
+    transform: rotateX(-90deg);
+    color:black;
+    position: absolute;
+} */
+
+/* #failr img {
     height: 80%;
     
 }
@@ -234,7 +276,7 @@ h1 {
         position: static;
         
     }
-}
+} */
 
 
 /* -------------------------------matchup --------------------------------*/

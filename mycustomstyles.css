@@ -2,6 +2,14 @@
     border: 3px #ffb81c solid;
 }
 
+.gline {
+    border-left: 3px solid #FDBB30;
+}
+
+.wline {
+    border-left: 3px solid #6f263d;
+}
+
 .nmpanel {
     height: 330px;
     border-radius: 10px;
