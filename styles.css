@@ -30,7 +30,10 @@ h1 {
 .opening img {
     object-fit: cover;
     height: 100vh;
-    width: 100vw;
+}
+
+#huddle {
+    width: 100%;
 }
 
 .opening i {
@@ -246,6 +249,10 @@ h1 {
     animation-iteration-count:1;
     animation-fill-mode:forwards;
     
+}
+
+#matchup2 img {
+    width: 280px;
 }
 
 /* -------------------------------mynav css --------------------------------*/
