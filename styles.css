@@ -6,19 +6,18 @@ html {
 }
 
 body {
-    background-color: black;
     padding:0;
     margin:0;
 }
 
 p {
     font-family: 'PT Sans' ;
-    color: white;
+    color: black;
 }
 
 h1 {
     font-family: 'Bebas Neue' ;
-    color:white;
+    color:black;
 }
 
 
@@ -73,7 +72,10 @@ h1 {
 }
 
 .opening p {
-    color: white;
+    color: white !important;
+    animation: fadeIn2;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
     top: 60%;
     left: 50%;
     position: absolute;
@@ -156,8 +158,132 @@ h1 {
     display: block;
 }
 
+
+
+/* -------------------------------matchup --------------------------------*/
+#matchup h1, #matchup p{
+    color: black;
+}
+
+#matchup i {
+    color:white;
+}
+
+#vs h1 {
+    font-size: 2em;
+}
+
+#vs {
+    box-shadow: 
+    -5px 0px 10px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255, 1);
+    background-color: white;
+    padding:20px;
+}
+
+#vsbron {
+    background-image: url(images/matchup/vsbron.png);
+    background-size: cover;
+}
+
+#vscurry {
+    box-shadow: inset 5px 0px 10px rgba(0,0,0,0.5);
+    background-image: url(images/matchup/vscurry.png);
+    background-size: cover;
+}
+
+
+/* -------------------------------failure resume --------------------------------*/
+
+#failr img {
+    height: 80vh;
+    
+}
+
+#herotxt1 {
+    position: relative;
+    bottom: 40%;
+    font-size: 6em;
+    left: 25%;
+    color: #6f263d;
+}
+
+#herotxt2 {
+    position: relative;
+    bottom: 47%;
+    left:35%;
+    font-size: 7em;
+    color: #6f263d;
+}
+
+#herotxt3 {
+    font-size: 0.8em;
+    font-family: 'PT Sans' ;
+    transform: rotate(-90deg);
+    position: absolute;
+    color: grey;
+    left:80%;
+    top:70%;
+    width: 500px;
+    text-align: left;
+    font-style: italic;
+}
+
+#resume {
+    position: relative;
+    top:20%;
+    left:40%;
+    width:300px;
+    color: rgba(0,0,0,0.5);
+}
+
+.gline {
+    border-left: 3px solid #FDBB30;
+}
+
+.wline {
+    border-left: 3px solid #6f263d;
+}
+
+@media (max-width:768px) {
+    #resume {
+        position: static;
+        padding: 20px;
+        height: 30vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* -------------------------------chapt1 css --------------------------------*/
-#chapt1 div{
+#chapt1 > div{
     height: 100vh;
 }
 
@@ -179,16 +305,16 @@ h1 {
 
 
 #a2 {
-    position: relative;
-    top:50%;
+    position: absolute;
+    top:40%;
     font-size: 6em;
-    right:19%;
+    right:40%;
     
 }
 
 #a3 {
-    position: relative;
-    top:45%;
+    position: absolute;
+    top:55%;
     font-size: 6em;
     left:40%;
 }
@@ -345,10 +471,10 @@ h1 {
     border: 5px #ffb81c solid;
 }
 
-.mycard {
+/* .mycard {
     height: 50vh;
     border: 5px #ffb81c solid;
-}
+} */
 
 #vsceltics {
     background-image: url(images/chapt2/bron2.jpg);

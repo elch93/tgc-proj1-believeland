@@ -1,5 +1,84 @@
 .gbor {
-    border: 5px #ffb81c solid;
+    border: 3px #ffb81c solid;
+}
+
+.nmcard {
+    background-color: #efeeee;
+    padding: 0px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3),
+    -5px -5px 10px rgba(255,255,255,0.5);
+    border: 1px solid rgba(255,255,255, 0.2);
+
+}
+
+.nmtop {
+    height: 200px;
+    width: 90%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+
+.nmbtm {
+    height: 250px;
+    width: 90%;
+}
+
+.onepg {
+    width: 80%;
+}
+
+.wineleft {
+    border-radius: 5px 0 0 5px;
+    background-color: #6f263d;
+    box-shadow: 0px 5px 5px 0 rgba(0,0,0,0.3);
+    width:20%;
+    height: 50px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.wineright {
+    border-radius: 0 5px 5px 0;
+    background-color: white;
+    box-shadow: 0px 5px 5px 0 rgba(0,0,0,0.3);
+    width:70%;
+    height: 50px;
+    text-align: center;
+}
+
+.gsleft {
+    border-radius: 5px 0 0 5px;
+    background-color: white;
+    box-shadow: 0px 5px 5px 0 rgba(0,0,0,0.3);
+    width:70%;
+    height: 50px;
+    text-align: center;
+}
+
+.gsright {
+    border-radius: 0 5px 5px 0;
+    background-color: #006BB8;
+    box-shadow: 0px 5px 5px 0 rgba(0,0,0,0.3);
+    width:20%;
+    height: 50px;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+.hundred {
+    height: 100vh;
+}
+
+.third {
+    height: 30vh;
+}
+
+.fifty {
+    height: 50vh;
 }
 
 .box1 {
@@ -8,6 +87,10 @@
     position: relative;
     background-color: white;
     border-radius: 15px;
+}
+
+.grey {
+    background-color: rgba(0,0,0,0.5);
 }
 
 .white {
@@ -25,6 +108,16 @@
 .black {
     background-color: black;
 }
+
+.blue {
+    background-color: #006BB8;
+}
+
+.nmbg {
+    background-color: #efeeee;
+}
+
+
 
 #chapt1 h1,#chapt1 #bron1, #ib1, #ib2, #ib3, #a4 p,  #c21, #c22, #villain,
 #chapt2b p {
@@ -46,9 +139,8 @@
 
 /* down arrow button */
 
-#chapt1 i, #chapt1b i, #chapt2 i, #chapt2b i, #chapt3 i, #chapt3b i, 
-#chapt3c i, #chapt4 i {
-    color:#FDBB30;
+.nextarrow {
+    color:#FDBB30 !important;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -112,17 +204,7 @@
     animation-iteration-count: infinite;
 }
 
-.neuromorph {
-    background-color: black;
-    padding: 0px;
-    height: 35px;
-    width: 35px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.3),
-    -5px -5px 10px rgba(255,255,255,0.5);
-    border: 1px solid rgba(255,255,255, 0.2);
 
-}
 
 @keyframes fadeIn {
     0% {
