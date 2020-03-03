@@ -204,7 +204,13 @@
     animation-iteration-count: infinite;
 }
 
+@keyframes expand {
+    100% {
+        transform: translateX(-50%);
+    
+    }
 
+}
 
 @keyframes fadeIn {
     0% {

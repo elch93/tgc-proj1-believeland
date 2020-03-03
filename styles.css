@@ -155,11 +155,6 @@ h1 {
     display: block;
 }
 
-
-
-
-
-
 /* -------------------------------failure resume --------------------------------*/
 
 #failr img {
@@ -223,7 +218,33 @@ h1 {
 
 /* -------------------------------matchup --------------------------------*/
 
+#vsbron {
+    position: absolute;
+    height: 50%;
+    top: 30%;
+    left:50%;
+}
 
+#vscurry {
+    position: absolute;
+}
+
+#test {
+    position: absolute;
+    top:50%;
+    left:120%;
+    display:none;
+    animation: expand; 
+    animation-duration: 1s;
+    timing-function delay:0;
+    iteration-count:1;
+    animation-fill-mode:forwards;
+    
+}
+
+#vsbrontest:hover #test {
+    display:block;
+}
 
 
 
