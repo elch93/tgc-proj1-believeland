@@ -246,11 +246,6 @@ h1 {
     border-left: 3px solid #6f263d;
 }
 
-.gallerybox {
-    width: 10%;
-    height: 200px;
-}
-
 @media (max-width:768px) {
     #resume {
         position: static;
