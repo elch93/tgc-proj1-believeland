@@ -226,6 +226,116 @@ h1 {
     height: 20%;
 }
 
+/* -------------------------------court css --------------------------------*/
+.circle {
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 68%;
+    left:42.5%;
+
+}
+
+.circlewar {
+    border-radius: 50%;
+    border: 1px solid blue;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom:3%;
+    left:14%;
+}
+
+.circlecavs {
+    border-radius: 50%;
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left:70%;
+    bottom:328%;
+
+
+}
+
+#box4 {
+    border: 1px solid blue;
+    height: 50px;
+    width: 70px;
+    position: relative;
+    top:30%;
+    left:2px;
+    
+}
+
+#box6 {
+    border: 1px solid red;
+    height: 50px;
+    width: 70px;
+    position: relative;
+    left:78%;
+    bottom:295%;
+}
+
+#threept {
+    border: 1px solid black;
+    border-radius: 0 50% 50% 0;
+    height: 50px;
+    position: relative;
+    
+}
+
+#cavs3 {
+    border: 1px solid black;
+    border-radius:  50% 0 0 50% ;
+    height: 50px;
+    width: 70px;
+    transform: translateY(-150%) translateX(-70%) scaleY(3) scaleX(1.5);
+    position: relative;
+    bottom: 309%;
+    left: 88%;
+}
+
+
+#war3 {
+    border: 1px solid black;
+    border-radius: 0 50% 50% 0;
+    height: 50px;
+    width: 70px;
+    transform: translateY(-150%) translateX(5%) scaleY(3) scaleX(1.5);
+    position: relative;
+    top:17%;
+    left:5%;
+}
+
+
+#courtline {
+    width: 325px;
+    height: 150px;
+    border: 3px solid black;
+    position: relative;
+    bottom: 130%;
+    left:2px;
+}
+
+#midline {
+    height: 147px;
+    width: 0px;
+    border: 1px black solid;
+    position: relative;
+    bottom: 226%;
+    left: 50%;
+}
+
+#mycourt {
+    width:330px;
+    height: 155px;
+    border: 1px gold solid;
+}
+
+
 
 
 /* -------------------------------mynav css --------------------------------*/
