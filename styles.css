@@ -196,26 +196,63 @@ h1 {
 
 /* -------------------------------failure resume --------------------------------*/
 
-
+#failr img {
+    height: 80vh;
+    
+}
 
 #herotxt1 {
     position: relative;
-    bottom: 50%;
-    font-size: 7em;
-    left: 50%;
+    bottom: 40%;
+    font-size: 6em;
+    left: 25%;
+    color: #6f263d;
 }
 
 #herotxt2 {
     position: relative;
-    bottom: 55%;
-    left:70%;
+    bottom: 47%;
+    left:35%;
     font-size: 7em;
+    color: #6f263d;
 }
 
+#herotxt3 {
+    font-size: 0.8em;
+    font-family: 'PT Sans' ;
+    transform: rotate(-90deg);
+    position: absolute;
+    color: grey;
+    left:80%;
+    top:70%;
+    width: 500px;
+    text-align: left;
+    font-style: italic;
+}
 
+#resume {
+    position: relative;
+    top:20%;
+    left:40%;
+    width:300px;
+    color: rgba(0,0,0,0.5);
+}
 
+.gline {
+    border-left: 3px solid #FDBB30;
+}
 
+.wline {
+    border-left: 3px solid #6f263d;
+}
 
+@media (max-width:768px) {
+    #resume {
+        position: static;
+        padding: 20px;
+        height: 30vh;
+    }
+}
 
 
 
