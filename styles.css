@@ -158,22 +158,22 @@ h1 {
 /* -------------------------------failure resume --------------------------------*/
 
 #failr img {
-    height: 80vh;
+    height: 80%;
     
 }
 
 #herotxt1 {
     position: relative;
-    bottom: 40%;
+    bottom: 37%;
     font-size: 6em;
-    left: 25%;
+    left: 40%;
     color: #6f263d;
 }
 
 #herotxt2 {
     position: relative;
-    bottom: 47%;
-    left:35%;
+    bottom: 42%;
+    left:55%;
     font-size: 7em;
     color: #6f263d;
 }
@@ -184,8 +184,8 @@ h1 {
     transform: rotate(-90deg);
     position: absolute;
     color: grey;
-    left:80%;
-    top:70%;
+    left:70%;
+    top:30%;
     width: 500px;
     text-align: left;
     font-style: italic;
