@@ -2,6 +2,23 @@
     border: 3px #ffb81c solid;
 }
 
+.nmpanel {
+    height: 600px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.nmpanel img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.nmpaneltxt {
+    height: 330px;
+    border-radius: 0 0 10px 10px;
+}
+
+
 .nmcard {
     background-color: #efeeee;
     padding: 0px;
