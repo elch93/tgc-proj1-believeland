@@ -257,7 +257,7 @@ h1 {
     width: 50px;
     height: 50px;
     position: relative;
-    bottom:1%;
+    bottom:4%;
     left:14%;
 }
 
@@ -268,28 +268,28 @@ h1 {
     height: 50px;
     position: relative;
     left:70%;
-    bottom:325%;
+    bottom:322%;
 
 
 }
 
 #box4 {
     border: 1px solid blue;
-    height: 51px;
+    height: 50.5px;
     width: 70px;
     position: relative;
-    top:32%;
+    top:28%;
     left:2px;
     
 }
 
 #box6 {
     border: 1px solid red;
-    height: 51px;
+    height: 50px;
     width: 70px;
     position: relative;
     left:78%;
-    bottom:292%;
+    bottom:290%;
 }
 
 #threept {
@@ -345,14 +345,12 @@ h1 {
 #warcourt {
     width:330px;
     height: 155px;
-    border: 1px gold solid;
     transform: skewX(-30deg);
 }
 
 #cavcourt {
     width:330px;
     height: 155px;
-    border: 1px gold solid;
     transform: skewX(30deg);
 }
 
@@ -364,7 +362,6 @@ h1 {
 #mycourtportrait {
     width:330px;
     height: 155px;
-    border: 1px gold solid;
     transform:rotate(90deg);
 }
 
@@ -416,6 +413,8 @@ h1 {
 #redemption {
     height: 500px;
 }
+
+
 
 /* -------------------------------final 2mins css --------------------------------*/
 
