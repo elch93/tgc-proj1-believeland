@@ -275,7 +275,7 @@ h1 {
 
 #box4 {
     border: 1px solid blue;
-    height: 50px;
+    height: 51px;
     width: 70px;
     position: relative;
     top:32%;
@@ -285,7 +285,7 @@ h1 {
 
 #box6 {
     border: 1px solid red;
-    height: 50px;
+    height: 51px;
     width: 70px;
     position: relative;
     left:78%;
@@ -303,11 +303,11 @@ h1 {
 #cavs3 {
     border: 1px solid black;
     border-radius:  50% 0 0 50% ;
-    height: 50px;
+    height: 44px;
     width: 70px;
     transform: translateY(-150%) translateX(-70%) scaleY(3) scaleX(1.5);
     position: relative;
-    bottom: 307.5%;
+    bottom: 309%;
     left: 88%;
 }
 
@@ -315,11 +315,11 @@ h1 {
 #war3 {
     border: 1px solid black;
     border-radius: 0 50% 50% 0;
-    height: 50px;
+    height: 44px;
     width: 70px;
     transform: translateY(-150%) translateX(5%) scaleY(3) scaleX(1.5);
     position: relative;
-    top:16.5%;
+    top:8%;
     left:5%;
 }
 
@@ -359,7 +359,6 @@ h1 {
 #mycourt {
     width:330px;
     height: 155px;
-    border: 1px gold solid;
 }
 
 #mycourtportrait {
