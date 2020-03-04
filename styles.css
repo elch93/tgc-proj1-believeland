@@ -1,10 +1,15 @@
 html {
   scroll-behavior: smooth;
+ 
+  
 }
 
-body {
-    padding:0;
-    margin:0;
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 p {
@@ -213,6 +218,7 @@ h1 {
 
 #matchup2{
     background-color:#FDBB30;
+    width:100%;
 }
 
 #matchup2 img {
@@ -370,16 +376,51 @@ h1 {
 }
 
 #rematch {
-    height: 800px;
+    height: 100%;
+    width: 100%;;
 }
 
 #curryrm {
-    width: 100%;
+    width: 180%;
+    position: relative;
+    top:40%;
+}
+
+#bronrmlg {
+    width: 220%;
+    position: relative;
+    bottom:40%;
+    right:200%;
+}
+
+#curryrmlg {
+    width: 180%;
+    position: relative;
+    right:105%;
+    bottom:5%;
 }
 
 #bronrm {
+    width: 170%;
+    position: relative;
+    right:70%;
+}
+
+#champs15 {
+    width: 300%;
+    position: relative;
+    right:100%;
+    transform: scale(1.75);
+
+}
+
+
+/* -------------------------------final 2mins css --------------------------------*/
+
+#final {
     width: 100%;
 }
+
 
 
 
