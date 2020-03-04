@@ -211,6 +211,10 @@ h1 {
     
 }
 
+#matchup2{
+    background-color:#FDBB30;
+}
+
 #matchup2 img {
     width: 100%;
     margin-bottom: 15px;
@@ -361,10 +365,21 @@ h1 {
 
 /* -------------------------------rematch css --------------------------------*/
 
+.topshad {
+    box-shadow: inset 0px 7px 5px 0px rgba(0, 0, 0, 0.3);
+}
 
+#rematch {
+    height: 800px;
+}
 
+#curryrm {
+    width: 100%;
+}
 
-
+#bronrm {
+    width: 100%;
+}
 
 
 
