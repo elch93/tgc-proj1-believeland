@@ -162,144 +162,26 @@ h1 {
 }
 
 /* -------------------------------failure resume --------------------------------*/
-#fr3 img {
-    width: 200px;
-}
 
-#bron3lg {
-    position: relative;
-    top:40%;
-    transform: scale(2);
-}
 
-#namelg1 {
-    font-size: 7em;
-    position: relative;
-    top:45%;
-    right: 60%;
-}
 
-#namelg2 {
-    font-size: 7em;
-    position: relative;
-    top:35%;
-    right:30%;
-    
-}
 
-#namesm1 {
-    font-size: 4.2em;
-    position: relative;
-    left:50%;
-}
 
-#namesm2 {
-    font-size: 4.2em;
-    position: relative;
-    right:40%;
-    top:30%
-}
+
 
 
 /* -------------------------------matchup --------------------------------*/
-#testsvg {
-    width: 50%;
-    height:500px;
-}
-
-#test {
-    position: absolute;
-    top:50%;
-    left:120%;
-    display:none;
-    animation: expand; 
-    animation-duration:2s;
-    animation-iteration-count:1;
-    animation-fill-mode:forwards;
-    
-}
-
-#matchup2{
-    background-color:#FDBB30;
-    width:100%;
-}
-
-#matchup2 img {
-    width: 100%;
-    margin-bottom: 15px;
-    margin-left:auto;
-    margin-right:auto;
-    position: relative;
-}
-
-#matchup2 h1 {
-    border-left: 3px solid #6f263d;
-    padding-left: 5px;
-}
-
-#finals16 img {
-    object-fit: cover;
-    height: 20%;
+#game47 h1 {
+    border-bottom: #FDBB30 5px solid;
 }
 
 
 
-/* -------------------------------rematch css --------------------------------*/
-#rematch2 {
-    height: 100vh;
-    background-color: black;
-}
+/* -------------------------------timeline css --------------------------------*/
 
 
 
 
-
-/* .topshad {
-    box-shadow: inset 0px 7px 5px 0px rgba(0, 0, 0, 0.3);
-}
-
-#rematch {
-    height: 100%;
-    width: 100%;
-}
-
-#curryrm {
-    width: 180%;
-    position: relative;
-    top:40%;
-}
-
-#bronrmlg {
-    width: 220%;
-    position: relative;
-    bottom:40%;
-    right:200%;
-}
-
-#curryrmlg {
-    width: 180%;
-    position: relative;
-    right:105%;
-    bottom:5%;
-}
-
-#bronrm {
-    width: 170%;
-    position: relative;
-    right:70%;
-}
-
-#champs15 {
-    width: 300%;
-    position: relative;
-    right:100%;
-    transform: scale(1.75);
-
-}
-
-#redemption {
-    height: 500px;
-} */
 
 
 
