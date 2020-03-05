@@ -161,10 +161,49 @@ h1 {
     display: block;
 }
 
-/* -------------------------------failure resume --------------------------------*/
 
 
 
+
+
+
+/* -------------------------------timeline css --------------------------------*/
+#timeline {
+    height: 100%;
+}
+
+#timeline p {
+    color: white;
+}
+
+#timeline img {
+    height: 300px;
+    position: relative;
+}
+
+#timeline h1 {
+    font-size: 9em;
+    position: absolute; /*so to not affect the col's height*/
+    font-family: 'Bungee Inline', cursive;
+    color:#FDBB30;
+}
+
+#bron03 {
+    left:5%;
+}
+
+#bron07 {
+    right:60%;
+}
+
+.leftp {
+    top:50%;
+    position: relative;
+}
+
+#bron15 {
+    right:75%;
+}
 
 
 
@@ -174,13 +213,6 @@ h1 {
 #game47 h1 {
     border-bottom: #FDBB30 5px solid;
 }
-
-
-
-/* -------------------------------timeline css --------------------------------*/
-
-
-
 
 
 
