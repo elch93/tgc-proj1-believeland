@@ -186,6 +186,7 @@ h1 {
     position: absolute; /*so to not affect the col's height*/
     font-family: 'Bungee Inline', cursive;
     color:#FDBB30;
+    border-bottom: 15px double white;
 }
 
 #bron03 {
