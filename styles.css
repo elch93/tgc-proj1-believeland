@@ -155,68 +155,26 @@ h1 {
 }
 
 
-/* -------------------------------timeline css --------------------------------*/
-/* #timeline {
-    background: black;
-    position: relative;
+
+
+
+
+/* -------------------------------games 4 - 7--------------------------------*/
+
+#game47 {
+    height: 100%;
+    margin-bottom: 50px;
 }
 
-#timeline p {
-    color: white;
+.rwineborder {
+    border-right: 20px solid #6f263d;
+    box-shadow: inset -5px 0px 10px rgba(0,0,0,0.3);
 }
 
-#timeline img {
-    height: 230px;
-    position: relative;
-    top:30%;
+.lwineborder {
+    border-left: 20px solid #6f263d;
+    box-shadow: inset 5px 0px 10px rgba(0,0,0,0.3);
 }
-
-#timeline h1 {
-    font-size: 8.5em;
-    position: absolute; /*so to not affect the col's height*/
-    /* font-family: 'Bungee Inline', cursive;
-    color:#FDBB30;
-    border-bottom: 15px double white;
-}
-
-#bron03 {
-    left:5%;
-}
-
-#bron07 {
-    right:25%;
-}
-
-.leftp {
-    top:50%;
-    position: relative;
-}
-
-#bron15 {
-    right:25%;
-}
-
-#rematchsvg {
-    width: 90%;
-} */ */
-
-
-
-
-/* -------------------------------matchup --------------------------------*/
-#game47 h1 {
-    border-bottom: #FDBB30 5px solid;
-}
-
-
-
-
-/* -------------------------------final 2mins css --------------------------------*/
-
-#final {
-    width: 100%;
-}
-
 
 
 
