@@ -21,71 +21,40 @@ h1 {
 }
 
 
+/* -------------------------------welcome pagev2 css --------------------------------*/
 
-/* -------------------------------welcome page css --------------------------------*/
-.opening {
-    position: relative;
-    text-align: center;
-    height: 100vh;
-
-}
-
-.opening img {
+#welcomeimg {
+    position: fixed;  /* fixed bg and title container won't scroll */
     object-fit: cover;
-    height: 100vh;
-}
-
-#huddle {
     width: 100%;
 }
 
-.opening i {
-    color:#FDBB30;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    top:80%;
+#welcomeimgcut {
+    position: relative;
+    width: 100%;
+    
+}
+
+
+#title-container {
+    position: fixed;
+}
+
+#herotitle h1 {
+    font-size: 10vw; /*use vw to make font size responsive */
+    color: white;
     text-align: center;
-    animation: fadeIn2, bounce;
-    animation-duration: 12s, 2s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1, infinite;
-    font-size: 30px;
 }
 
-.opening .para1{
-    top: 20%;
-    left: 50%;
-    position: absolute;
-    transform: translateX(-50%) translateY(-50%);
-    color:#FDBB30;
-    font-family: 'Bebas Neue' ;
-    font-size: 5em;
+
+#herotitle2 h1 {
+    font-size: 15vw;
+    color: white;
+    text-align: center;
 }
 
-.opening .para2{
-    top: 35%;
-    left: 50%;
-    position: absolute;
-    transform: translateX(-50%) translateY(-50%);
-    color: #FDBB30;
-    font-family: 'Bebas Neue' ;
-    font-size: 80px;
-    font-size: 7em;
-}
 
-.opening p {
-    color: white !important;
-    animation: fadeIn2;
-    animation-duration: 8s;
-    animation-fill-mode: forwards;
-    top: 60%;
-    left: 50%;
-    position: absolute;
-    transform: translateX(-50%) translateY(-50%);
-    font-size: 25px;
-    font-family: 'PT Sans' ;
-}
+
 
 
 
@@ -169,7 +138,8 @@ h1 {
 
 /* -------------------------------timeline css --------------------------------*/
 #timeline {
-    height: 100%;
+    background: black;
+    position: relative;
 }
 
 #timeline p {
@@ -177,8 +147,9 @@ h1 {
 }
 
 #timeline img {
-    height: 300px;
+    height: 230px;
     position: relative;
+    top:30%;
 }
 
 #timeline h1 {
