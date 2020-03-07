@@ -53,91 +53,88 @@ h1 {
     text-align: center;
 }
 
+#cutcontainer {
+    position: relative;
+    height: 100%;
+}
 
-
+#cutcontainer p {
+    position: absolute;
+    bottom: 25%;
+    color: white;
+    width: 100vw;
+    text-align: center;
+    font-size: 1.5vw;
+}
 
 
 
 /* -------------------------------chapt 0 css --------------------------------*/
 
-#chapt0 {
+#browns img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#browns .year {
+    position: absolute;
+    color: white;
+    font-family:  'Bungee Inline', cursive;
+    bottom: 50%;
+    left:50%;
+    font-size: 10em;
+    transform: translateX(-50%) translateY(50%);
+}
+
+ .year {
+    position: absolute;
+    color: #ffb81c;
+    font-family:  'Bungee Inline', cursive;
+    bottom: 50%;
+    left:50%;
+    font-size: 20em;
+    transform: translateX(-50%) translateY(50%);
+}
+
+
+.rgoldborder {
+    border-right: 50px solid #ffb81c;
+}
+
+.lgoldborder {
+    border-left: 50px solid #ffb81c;
+}
+
+
+#bron03 {
     position: relative;
+    height: 80%;
+    top:10%;
+    left: 15%;
 }
 
-#chapt0 img {
-    object-fit: cover;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
+#bron07 {
+    position: relative;
+    height: 80%;
+    top:10%;
 }
 
-#c01, #c02 {
-    font-size: 17px;
+#bron10 {
+    position: relative;
+    height: 80%;
+    left: 30%;
+    top: 10%;
 }
 
-#chapt0 #c01 {
-    color:white;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    margin-bottom: 20px;
-    font-family: 'PT Sans' ;
-    
+#bron15 {
+    position: relative;
+    top:20%;
+    left: 20%;
 }
-
-#chapt0 #c02 {
-    color:white;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: 'PT Sans' ;
-}
-
-#c03 {
-    color:white;
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: 'Bebas Neue';
-    font-size: 3em;
-}
-
-#chapt0 i {
-    color:#FDBB30;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    top:80%;
-    text-align: center;
-    animation: fadeIn2, bounce;
-    animation-duration: 12s, 2s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1, infinite;
-    font-size: 30px;
-}
-
-#chapt0 p, #c03{
-    display: none;
-}
-
-#chapt0:hover #c03, #chapt0:hover p  {
-    display: block;
-}
-
-
-
-
-
-
 
 /* -------------------------------timeline css --------------------------------*/
-#timeline {
+/* #timeline {
     background: black;
     position: relative;
 }
@@ -155,7 +152,7 @@ h1 {
 #timeline h1 {
     font-size: 8.5em;
     position: absolute; /*so to not affect the col's height*/
-    font-family: 'Bungee Inline', cursive;
+    /* font-family: 'Bungee Inline', cursive;
     color:#FDBB30;
     border-bottom: 15px double white;
 }
@@ -179,7 +176,7 @@ h1 {
 
 #rematchsvg {
     width: 90%;
-}
+} */ */
 
 
 
