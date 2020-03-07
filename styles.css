@@ -69,7 +69,7 @@ h1 {
 }
 
 
-/* -------------------------------chapt 0 css --------------------------------*/
+/* -------------------------------timelinev2 css --------------------------------*/
 
 #browns img{
     width: 100%;
@@ -99,11 +99,13 @@ h1 {
 
 
 .rgoldborder {
-    border-right: 50px solid #ffb81c;
+    border-right: 20px solid #ffb81c;
+    box-shadow: inset -5px 0px 10px rgba(0,0,0,0.3);
 }
 
 .lgoldborder {
-    border-left: 50px solid #ffb81c;
+    border-left: 20px solid #ffb81c;
+    box-shadow: inset 5px 0px 10px rgba(0,0,0,0.3);
 }
 
 
@@ -132,6 +134,26 @@ h1 {
     top:20%;
     left: 20%;
 }
+
+/* -------------------------------cavs vs warriors cards --------------------------------*/
+
+#bron16 {
+    top: 10%;
+    height: 80%;
+    position: relative;
+}
+
+#curry1 {
+    top: 10%;
+    height: 80%;
+    left:25%;
+    position: relative;
+}
+
+#rematch {
+    width: 100%;
+}
+
 
 /* -------------------------------timeline css --------------------------------*/
 /* #timeline {
