@@ -8,6 +8,7 @@ body
 {
     width: 100%;
     overflow-x: hidden;
+    background-color: black;
     
 
 }
@@ -76,6 +77,19 @@ h1 {
     height: 100%;
 }
 
+.tlcontent p{
+    font-size: 3vh;
+    text-align: justify;
+}
+
+.tlcontent h1 {
+    font-size: 7vh;
+}
+
+.tlcontent .container {
+    width: 90%;}
+
+
 
 #browns .year {
     position: absolute;
@@ -135,8 +149,6 @@ h1 {
     left: 20%;
 }
 
-/* -------------------------------cavs vs warriors cards --------------------------------*/
-
 #bron16 {
     top: 10%;
     height: 80%;
@@ -154,12 +166,6 @@ h1 {
     width: 100%;
 }
 
-
-
-
-
-
-/* -------------------------------games 4 - 7--------------------------------*/
 
 #game47 {
     height: 100%;
@@ -179,5 +185,47 @@ h1 {
 
 
 
-/* -------------------------------mynav css --------------------------------*/
+/* -------------------------------final 2 minutes css --------------------------------*/
+#game7 h1 {
+    color: white;
+    padding:0 15%;
+    text-align: center;
+}
 
+#game7 img{
+    opacity: 0.5;
+    height: 100%;
+}
+
+
+.title0 {
+    position: absolute;
+    top: 10%;
+    
+}
+
+.title1 {
+    position: absolute;
+    top: 20%;
+    
+}
+
+.title2 {
+    position: absolute;
+    top: 30%;
+    
+}
+
+.title3 {
+    position: absolute;
+    top: 50%;
+    
+}
+
+.gtxt {
+    color: #ffb81c;
+}
+
+.emphasis {
+    font-size: 3.5vw;
+}
