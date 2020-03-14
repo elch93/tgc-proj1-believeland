@@ -24,6 +24,7 @@ h1 {
     background-color: black;
     overflow: hidden;
     height: 100vh !important;
+    width: 100vw;
 }
 
 #storycontainer {
@@ -32,6 +33,7 @@ h1 {
 
 #bgimg {
     height: 100%;
+    width: 100vw;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
@@ -40,6 +42,7 @@ h1 {
 #cut {
     position: relative;
     height: 100%;
+    width: 100vw;
     left:50%;
     transform: translateX(-50%);
 }
@@ -65,7 +68,7 @@ h1 {
 #heading3 {
     position: absolute;
     color: white;
-    top: 65%;
+    top: 55%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 30px;
@@ -81,9 +84,9 @@ h1 {
 
 #beginbtn {
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%,0);
     font-size: 50px;
     border-radius: 15px;
     background-color: #FDBB30;
@@ -96,44 +99,23 @@ h1 {
 
 #beginbtn:hover {
     transition: ease-in-out 0.5s;
-    top:75%;
+    transform: translate(-50%,-10%);
     box-shadow: 0px 15px orange;
 
 }
 
-/* med size devices */
 
-@media (min-width: 767.5px) and (max-width: 991.5px) {
-
-    #heading {
-        font-size: 60px;
-    }
-    
-    #heading2 {
-        font-size: 250px;
-        top:10%;
-    }
-    
-    #heading3 {
-        top: 40%;
-        font-size: 30px;
-    }
-
-    #beginbtn {
-        font-size: 16px;
-        top:60%;
-    }
-}
 /* small size devices */
 
 @media (max-width: 767.5px) {
     #heading {
         font-size: 32px;
+        top: 25%;
     }
     
     #heading2 {
         font-size: 130px;
-        top:10%;
+        top:30%;
     }
     
     #heading3 {
@@ -143,8 +125,10 @@ h1 {
 
     #beginbtn {
         font-size: 16px;
-        
+        top:65%;
     }
+
+
 
     
 }
