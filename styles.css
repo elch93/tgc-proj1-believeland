@@ -104,9 +104,6 @@ h1 {
 /* med size devices */
 
 @media (min-width: 767.5px) and (max-width: 991.5px) {
-    #opening {
-        border: 10px red solid;
-    }
 
     #heading {
         font-size: 60px;
