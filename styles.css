@@ -1,7 +1,5 @@
 html {
   scroll-behavior: smooth;
- 
-  
 }
 
 body
@@ -9,8 +7,6 @@ body
     width: 100%;
     overflow-x: hidden;
     background-color: black;
-    
-
 }
 
 p {
@@ -23,209 +19,79 @@ h1 {
     color:black;
 }
 
-
-/* -------------------------------welcome pagev2 css --------------------------------*/
-
-#welcomeimgcut {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
+/* opening */
+#opening {
+    overflow: hidden;
 }
 
+#storycontainer {
+    z-index: 1;
+}
 
-#title-container {
+#bgimg {
+    left: 0;
+    width: 100%;
     position: fixed;
 }
 
-#herotitle h1 {
-    font-size: 7vw; /*use vw to make font size responsive */
-    color: white;
-    text-align: center;
-}
-
-
-#herotitle2 h1 {
-    font-size: 11vw;
-    color: white;
-    text-align: center;
-}
-
-
-
-#cutcontainer p {
-    position: absolute;
-    bottom: 25%;
-    color: white;
-    width: 100vw;
-    text-align: center;
-    font-size: 1.5vw;
-    
-}
-
-#cutcontainer {
-    background-image: url(images/welcome/city.jpg);
-    background-repeat: no-repeat;
-    background-size: 100vw 100%;
-    background-attachment: fixed;
-}
-
-
-/* -------------------------------timelinev2 css --------------------------------*/
-
-#browns img{
-    width: 100%;
-    height: 100%;
-}
-
-.tlcontent p{
-    font-size: 3vh;
-    text-align: justify;
-}
-
-.tlcontent h1 {
-    font-size: 7vh;
-}
-
-.tlcontent .container {
-    width: 90%;}
-
-
-
-#browns .year {
-    position: absolute;
-    color: white;
-    font-family:  'Bungee Inline', cursive;
-    bottom: 50%;
-    left:50%;
-    font-size: 10em;
-    transform: translateX(-50%) translateY(50%);
-}
-
- .year {
-    position: absolute;
-    color: #ffb81c;
-    font-family:  'Bungee Inline', cursive;
-    bottom: 50%;
-    left:50%;
-    font-size: 20em;
-    transform: translateX(-50%) translateY(50%);
-}
-
-
-.rgoldborder {
-    border-right: 20px solid #ffb81c;
-    box-shadow: inset -5px 0px 10px rgba(0,0,0,0.3);
-}
-
-.lgoldborder {
-    border-left: 20px solid #ffb81c;
-    box-shadow: inset 5px 0px 10px rgba(0,0,0,0.3);
-}
-
-
-#bron03 {
+#cut {
     position: relative;
-    height: 80%;
-    top:10%;
-    left: 15%;
-}
-
-#bron07 {
-    position: relative;
-    height: 80%;
-    top:10%;
-}
-
-#bron10 {
-    position: relative;
-    height: 80%;
-    left: 30%;
-    top: 10%;
-}
-
-#bron15 {
-    position: relative;
-    top:20%;
-    left: 20%;
-}
-
-#bron16 {
-    top: 10%;
-    height: 80%;
-    position: relative;
-}
-
-#curry1 {
-    top: 10%;
-    height: 80%;
-    left:25%;
-    position: relative;
-}
-
-#rematch {
     width: 100%;
 }
 
-
-#game47 {
-    height: 100%;
-    margin-bottom: 50px;
-}
-
-.rwineborder {
-    border-right: 20px solid #6f263d;
-    box-shadow: inset -5px 0px 10px rgba(0,0,0,0.3);
-}
-
-.lwineborder {
-    border-left: 20px solid #6f263d;
-    box-shadow: inset 5px 0px 10px rgba(0,0,0,0.3);
-}
-
-
-
-
-/* -------------------------------final 2 minutes css --------------------------------*/
-#game7 h1 {
+#heading {
+    position: fixed;
+    font-size: 80px;
     color: white;
-    padding:0 15%;
-    text-align: center;
+    top: 5%;
+    left: 27%;
 }
 
-#game7 img{
-    opacity: 0.5;
-    height: 100%;
+#heading2 {
+    position: fixed;
+    font-size: 300px;
+    color: white;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-
-.title0 {
+#heading3 {
     position: absolute;
-    top: 10%;
-    
+    color: white;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
 }
 
-.title1 {
+.rborder {
+    border-right: 5px solid #FDBB30;
+}
+
+.lborder {
+    border-left: 5px solid #FDBB30;
+}
+
+#beginbtn {
     position: absolute;
-    top: 20%;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50px;
+    border-radius: 15px;
+    background-color: #FDBB30;
+    border: none;
     
+    padding:10px 30px;
+    font-family:'PT Sans' ;
+    font-weight: 800;
+    transition: ease-in-out 0.5s;
 }
 
-.title2 {
-    position: absolute;
-    top: 30%;
-    
-}
+#beginbtn:hover {
+    transition: ease-in-out 0.5s;
+    top:73%;
+    box-shadow: 0px 15px orange;
 
-.title3 {
-    position: absolute;
-    top: 50%;
-    
-}
-
-.gtxt {
-    color: #ffb81c;
-}
-
-.emphasis {
-    font-size: 3.5vw;
 }
